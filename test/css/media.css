@@ -1,0 +1,368 @@
+/*==========  Desktop First Method  ==========*/
+
+
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 940px) {
+
+	.underhead-container {
+		width: 740px;
+	}
+
+	.navbar {
+		width: 740px;
+	}
+
+		.navbar-nav > li {
+			padding: 0 8px;
+		}
+
+		.navbar-nav > li.menu-right {
+			margin-left: 0;
+		}
+
+		.navbar-nav > li > a {
+			font: 600 13px 'Open Sans';
+			line-height: 24px;
+		}
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	
+	/*Disable Animation on Mobile Devices*/
+	.animated {
+		/*CSS transitions*/
+		-o-transition-property: none !important;
+		-moz-transition-property: none !important;
+		-ms-transition-property: none !important;
+		-webkit-transition-property: none !important;
+		transition-property: none !important;
+		/*CSS transforms*/
+		-o-transform: none !important;
+		-moz-transform: none !important;
+		-ms-transform: none !important;
+		-webkit-transform: none !important;
+		transform: none !important;
+		/*CSS animations*/
+		-webkit-animation: none !important;
+		-moz-animation: none !important;
+		-o-animation: none !important;
+		-ms-animation: none !important;
+		animation: none !important;
+	}
+
+	.underhead-cover {
+		display: none;
+	}
+
+	.navbar {
+		height: 40px;
+		width: 100%;
+	}
+
+	.navbar-brand {
+		float: left;
+		display: block;
+		margin: 0;
+		padding: 0;
+		margin: 4px 0 3px 15px;
+	}
+
+	#navbar2 {
+		border-bottom: 1px solid #ebebeb;
+	}
+
+	.navbar-nav {
+		margin-top: 0;
+	}
+
+		.navbar-nav > li {
+			float: none;
+			display: inline-block;
+			width: 100%;
+			margin: 0;
+			padding: 3px 0;
+		}
+
+		.navbar-nav > li > a {
+			padding: 0 15px;
+			font: 600 16px 'Open Sans';
+			line-height: 24px;
+		}
+
+		.navbar-nav > li > a:hover {
+			color: #133866;
+			background: #ebebeb;
+		}
+
+		.vertical-line {
+			display: none;
+		}
+
+	.breadcrumb-cover {
+		padding: 15px;
+		border-top: none;
+	}
+
+	h1 {
+		padding: 0 15px;
+	}
+
+	.main-content-container {
+		padding-bottom: 25px;
+	}
+
+	.main-content-text-top {
+		padding: 25px 15px 0;
+	}
+
+	/* plan-box-one */
+	.plan-box-one,
+	.plan-box-two,
+	.plan-box-three {
+		float: none;
+		display: block;
+		margin: 15px auto;
+	}
+
+	/* personal-info */
+	.choose-plan,
+	.personal-info,
+	.account,
+	.payment {
+		float: none;
+		display: block;
+		margin: 25px auto 0;
+		width: 360px;
+	}
+
+	.header-container,
+	.breadcrumb-cover,
+	.main-content-container,
+	.secure-container,
+	.proposal-container,
+	.footer-navigation {
+		width: 440px;
+	}
+
+		.secure-img-1,
+		.secure-img-2,
+		.secure-img-3,
+		.secure-img-4,
+		.secure-img-5 {
+			float: none;
+			display: block;
+			margin-left: 0;
+			margin: 0 auto 15px;
+		}
+
+	.proposal-block {
+		float: none;
+		margin: 35px auto;
+		padding: 0 25px;
+		width: 360px;
+		border-left: none;
+		border-right: none;
+	}
+
+
+	.footer-links-holder {
+		display: block;
+		float: none;
+		height: auto;
+		position: relative;
+		width: 360px;
+		padding: 0;
+		margin: 0 auto;
+		background: #ebebeb;
+		border: none;
+		outline: none;
+		overflow: hidden;
+	}
+
+	.footer-links-holder h4 {
+		margin: 0;
+		padding: 10px 20px;
+		border: none;
+		cursor: pointer;
+		/* Down Arrows */
+	}
+
+	.footer-links-holder h4::after {
+		float: right;
+		margin-right: 10px;
+		content: "";
+		display: inline-block;
+		vertical-align: middle;
+		margin-top: 7px;
+		width: 7px;
+		height: 7px;
+		border-top: 2px solid #000;
+		border-right: 2px solid #000;
+		-moz-transform: rotate(135deg);
+		-ms-transform: rotate(135deg);
+		-webkit-transform: rotate(135deg);
+		transform: rotate(135deg);
+
+	}
+
+	.footer-links {
+		float: left;
+		padding: 0 20px;
+		max-height: 0;
+		overflow: hidden;
+	}
+
+		.footer-links li {
+			padding-bottom: 10px;
+		}
+
+	.footer-links-holder.active h4::after {
+		-moz-transform: rotate(-45deg);
+		-ms-transform: rotate(-45deg);
+		-webkit-transform: rotate(-45deg);
+		transform: rotate(-45deg);
+	}
+
+	.footer-links-holder.active .footer-links {
+		padding-top: 10px;
+		width: 100%;
+		max-height: 300px;
+		background: #f9f9f9;
+	}
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+
+	/* personal-info */
+	.choose-plan,
+	.personal-info,
+	.account,
+	.payment {
+		width: 280px;
+	}
+
+	.header-container,
+	.breadcrumb-cover,
+	.main-content-container,
+	.secure-container,
+	.proposal-container,
+	.footer-navigation {
+		width: 320px;
+	}
+
+	.personal-input-text,
+	.personal-input-phone,
+	.personal-input-email,
+	.select-country,
+	.personal-input-free,
+	.personal-input-password {
+		display: block;
+		margin: 0;
+		width: 250px;
+		margin: 0 0 15px 14px;
+		background: url('../img/input-ico.png') 230px 16px no-repeat;
+	}
+
+		.select-country {
+			background: #fff url('../img/input-arrow.png') 226px 20px no-repeat;
+		}
+
+	/* select-month */
+	.select-month {
+		margin-left: 20px;
+	}
+
+	.payment-box {
+		width: 280px;
+	}
+
+	.payment-text,
+	.payment-price-text {
+		float: none;
+		display: block;
+		padding-top: 0;
+		margin-right: 0;
+		width: 100%;
+		text-align: center;
+	}
+
+	.payment-price-text {
+		padding-top: 10px;
+	}
+
+	.payment-btn {
+		float: none;
+		display: block;
+		width: 186px;
+		margin: 5px auto 0;
+	}
+
+
+	h2 {
+		font: 400 18px 'Open Sans';
+		line-height: 36px;
+	}
+
+	.secure-text {
+		padding: 0 15px 25px;
+	}
+
+	.proposal-block {
+		width: 280px;
+	}
+
+	.proposal-text-top {
+		padding: 15px 0 10px;
+		font: 600 16px 'Open Sans';
+		line-height: 18px;
+	}
+
+	.proposal-text-bottom {
+		font: 400 13px 'Open Sans';
+		line-height: 18px;
+	}
+
+	.footer-links-holder {
+		width: 260px;
+	}
+
+
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
