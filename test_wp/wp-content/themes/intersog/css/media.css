@@ -17,12 +17,42 @@
 			padding: 0 8px;
 		}
 
-		.navbar-nav > li.menu-right {
-			margin-left: 0;
+			.navbar-nav > li.menu-right {
+				margin-left: 0;
+			}
+
+			.navbar-nav > li > a {
+				font: 600 13px 'Open Sans';
+				line-height: 24px;
+			}
+
+	#menu-item-87 {
+		margin-left: 0;
+	}
+
+	#menu-item-106 {
+		background: url(../img/menu-arrow.png) 70px 10px no-repeat !important;
+	}
+	#menu-item-107 {
+		background: url(../img/menu-arrow.png) 60px 10px no-repeat !important;
+	}
+
+		#menu-item-106.active-custom {
+			background: url(../img/menu-arrow-active.png) 70px 10px no-repeat !important;
+		}
+		#menu-item-107.active-custom {
+			background: url(../img/menu-arrow-active.png) 60px 10px no-repeat !important;
 		}
 
-		.navbar-nav > li > a {
+		#menu-item-106 > a,
+		#menu-item-107 > a {
+			padding-right: 10px;
 			font: 600 13px 'Open Sans';
+			line-height: 24px;
+		}
+
+		.sub-menu > li > a {
+			font: 400 13px 'Open Sans';
 			line-height: 24px;
 		}
 
@@ -97,9 +127,74 @@
 			background: #ebebeb;
 		}
 
-		.vertical-line {
-			display: none;
+	#menu-item-106 {
+		background: url(../img/menu-arrow.png) 95px 14px no-repeat !important;
+	}
+
+	#menu-item-107 {
+		background: url(../img/menu-arrow.png) 85px 14px no-repeat !important;
+	}
+
+		#menu-item-106.active-custom {
+			background: url(../img/menu-arrow-active.png) 95px 14px no-repeat !important;
 		}
+
+		#menu-item-107.active-custom {
+			background: url(../img/menu-arrow-active.png) 85px 14px no-repeat !important;
+		}
+
+	#menu-item-106,
+	#menu-item-107 {
+		float: none;
+		display: inline-block;
+		width: 100%;
+		margin: 0;
+		padding: 3px 0;
+	}
+
+		#menu-item-106 a,
+		#menu-item-107 a {
+			padding: 0 15px;
+			font: 600 16px 'Open Sans';
+			line-height: 24px;
+		}
+
+			#menu-item-106 a:hover,
+			#menu-item-107 a:hover {
+				color: #069bdc;
+			}
+
+			.sub-menu {
+				display: none;
+			}
+
+				.menu-item-type-custom.active-custom .sub-menu {
+					display: block;
+					position: relative;
+					width: 100%;
+					padding-top: 5px;
+					top: 0;
+					left: 0;
+				}
+
+				.sub-menu li {
+					display: block;
+					width: 100%;
+				}
+
+			.sub-menu > li > a {
+				display: block;
+				width: 100%;
+				font: 400 16px 'Open Sans';
+				line-height: 24px;
+				color: #133866;
+			}
+
+				.sub-menu > li > a:hover,
+				.sub-menu > li > a:focus {
+					color: #133866 !important;
+					background: #ebebeb !important;
+				}
 
 	.breadcrumb-cover {
 		padding: 15px;
