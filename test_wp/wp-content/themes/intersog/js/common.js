@@ -2,14 +2,6 @@ $(document).ready(function() {
 
 	$(function() {
 
-		//SVG Fallback
-		if(!Modernizr.svg) {
-			$("img[src*='svg']").attr("src", function() {
-				return $(this).attr("src").replace(".svg", ".png");
-			});
-		};
-
-
 		//Chrome Smooth Scroll
 		try {
 			$.browserSelector();
@@ -26,18 +18,6 @@ $(document).ready(function() {
 
 
 	/* Header links dropdown */
-
-/*
-	$(function() {
-		$('.navbar li a').click(function () {
-			$('.navbar li').removeClass('current_page_item');
-			$(this).parent().toggleClass('current_page_item');
-		});
-	});
-*/
-
-
-
 	$(function() {
 		$('#menu-item-106 a').click(function () {
 			$(this).parent().toggleClass('active-custom');

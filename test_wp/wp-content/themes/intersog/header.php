@@ -88,37 +88,7 @@
 					'depth' => 0,
 					'walker' => ''
 				);
-			
 				wp_nav_menu( $args ); ?>
-<!-- NAVBAR standart
-			<ul class="nav navbar-nav navbar-right">
-				<li><a href="#">Home</a></li>
-				<li><a href="#">Features</a></li>
-				<li class="active"><a href="#">Plans & Pricing</a></li>
-
-				<li class="dropdown">
-					<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Company <span class="caret"></span></a>
-					<ul class="dropdown-menu" role="menu">
-						<li><a href="#">About</a></li>
-						<li><a href="#">Certifications</a></li>
-						<li><a href="#">Contact Us</a></li>
-					</ul>
-				</li>
-
-				<li class="dropdown">
-					<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Support <span class="caret"></span></a>
-					<ul class="dropdown-menu" role="menu">
-						<li><a href="#">How It Works</a></li>
-						<li><a href="#">FAQ</a></li>
-						<li><a href="#">Site Map</a></li>
-					</ul>
-				</li>
-
-				<li class="menu-right"><a href="#">Customer Login</a></li>
-				<div class="vertical-line"></div>
-				<li><a href="#">Free Trial</a></li>
-			</ul>
- -->
 		</div>
 	</nav>
 	<!-- / NAV -->

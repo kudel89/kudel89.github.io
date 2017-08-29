@@ -159,7 +159,7 @@ header {
 			display: block;
 			margin: 0;
 			padding: 0;
-			font: 600 14px 'Open Sans';
+			font: 700 14px 'Open Sans';
 			line-height: 24px;
 			color: #133866;
 			text-decoration: none;
@@ -260,7 +260,7 @@ header {
 				margin: 0;
 				padding: 0;
 				padding-right: 15px;
-				font: 600 14px 'Open Sans';
+				font: 700 14px 'Open Sans';
 				line-height: 24px;
 				color: #133866;
 				text-decoration: none;
@@ -539,6 +539,7 @@ h3 {
 	margin: 0 auto;
 	background: #fff;
 	border: 1px solid #acacac;
+	border-top: none;
 
 	-moz-border-radius-bottomright: 8px;
 	-webkit-border-bottom-right-radius: 8px;
@@ -580,7 +581,7 @@ input {
 	display: block;
 	width: 100%;
 	height: 37px;
-	margin-top: 10px;
+	margin-top: 7px;
 	font: 600 13.5px 'Open Sans';
 	line-height: 37px;
 	color: #2099d4;
@@ -671,11 +672,12 @@ input {
 /* personal-box */
 .personal-box {
 	display: block;
-	margin: 0 auto 15px;
-	padding: 15px 0;
+	margin: 0 auto 5px;
+	padding: 15px 0 0;
 	width: 330px;
 	background: #fff;
 	border-radius: 8px;
+	overflow: hidden;
 }
 
 
@@ -793,6 +795,7 @@ input {
 	}
 
 form {
+
 }
 
 	form * {
@@ -822,8 +825,32 @@ form {
 	border: 1px solid #acacac;
 }
 
+	input::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+		color: #a1a0a0;
+	}
+	input:-moz-placeholder { /* Firefox 18- */
+		color: #a1a0a0;
+	}
+	input::-moz-placeholder { /* Firefox 19+ */
+		color: #a1a0a0;
+	}
+	input:-ms-input-placeholder { /* IE */
+		color: #a1a0a0;
+	}
+	input::-ms-input-placeholder { /* IE Edge */
+		color: #a1a0a0;
+	}
+
 	.select-country {
-		background: #fff url('../img/input-arrow.png') 303px 20px no-repeat;
+		display: block;
+		width: 100%;
+		height: 40px;
+		margin-bottom: 15px;
+		padding: 0 30px 0 15px;
+		font: italic 400 18px 'Open Sans';
+		line-height: 40px;
+		color: #3d3d3d;
+		background: #fff url('../img/input-arrow.png') 303px 16px no-repeat;
 		-webkit-appearance: none;
 		-moz-appearance: none;
 		-ms-appearance:none;
@@ -831,6 +858,14 @@ form {
 		text-indent: 0.01px; /* Removes default arrow from firefox */
 		text-overflow: ''; /* Removes default arrow from firefox */
 	}
+
+		.select-country::-webkit-input-placeholder,
+		.select-country:-moz-placeholder,
+		.select-country::-moz-placeholder,
+		.select-country:-ms-input-placeholder,
+		.select-country::-ms-input-placeholder {
+			color: #3d3d3d;
+		}
 
 		.select-country::-ms-expand {
 			display: none;
@@ -850,7 +885,7 @@ form {
 	padding: 0 20px 0 15px;
 	font: 400 18px 'Open Sans';
 	line-height: 40px;
-	color: #a1a0a0;
+	color: #3d3d3d;
 	background: #fff url('../img/input-arrow.png') 54px 16px no-repeat;
 	border-radius: 5px;
 	outline: none;
@@ -880,7 +915,7 @@ form {
 	padding: 0 20px 0 4px;
 	font: 400 18px 'Open Sans';
 	line-height: 40px;
-	color: #a1a0a0;
+	color: #3d3d3d;
 	background: #fff url('../img/input-arrow.png') 54px 16px no-repeat;
 	border-radius: 5px;
 	outline: none;
@@ -897,6 +932,19 @@ form {
 	.select-year::-ms-expand {
 		display: none;
 	}
+
+		.select-month::-webkit-input-placeholder,
+		.select-month:-moz-placeholder,
+		.select-month::-moz-placeholder,
+		.select-month:-ms-input-placeholder,
+		.select-month::-ms-input-placeholder,
+		.select-year::-webkit-input-placeholder,
+		.select-year:-moz-placeholder,
+		.select-year::-moz-placeholder,
+		.select-year:-ms-input-placeholder,
+		.select-year::-ms-input-placeholder {
+			color: #3d3d3d;
+		}
 
 /* select-cvv */
 .select-cvv {
@@ -1073,28 +1121,14 @@ footer {
 	width: 180px;
 }
 
-.social-btn {
-	float: left;
-	display: block;
-	margin: 0 10px;
-	width: 25px;
-	height: 25px;
-	border-radius: 50%;
-}
-
-	.social-fb {
-		background: url('../img/social-ico-fb.jpg') center center no-repeat;
+	.footer-social a {
+		float: left;
+		display: block;
+		margin: 0 10px;
+		width: 25px;
+		height: 25px;
+		border-radius: 50%;
 	}
-	.social-tw {
-		background: url('../img/social-ico-tw.jpg') center center no-repeat;
-	}
-	.social-in {
-		background: url('../img/social-ico-in.jpg') center center no-repeat;
-	}
-	.social-gl {
-		background: url('../img/social-ico-gl.jpg') center center no-repeat;
-	}
-
 
 /* footer-navigation */
 .footer-navigation {
