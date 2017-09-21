@@ -891,12 +891,13 @@ p.profit-text-5 {
 	display: block;
 	width: 100%;
 	background: url(../img/step-bg.jpg) 38% 450px no-repeat;
+	overflow: hidden;
 }
 
 img.step-img-stanislav {
 	display: block;
 	position: absolute;
-	top: -220px;
+	top: -190px;
 	right: 0;
 	width: 506px;
 	height: 921px;
