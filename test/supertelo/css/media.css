@@ -1,0 +1,133 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Extra Size Devices, Wide Screens */
+@media only screen and (max-width : 1600px) {
+
+	p.denis-text-1 {
+		width: 510px;
+		font: 100px 'rusboycottregular';
+		line-height: 100px;
+	}
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1199px) {
+
+	/* M E N U < 1199 */
+	.navbar-default .navbar-nav > li > a {
+		margin: 0 8px;
+	}
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 991px) {
+
+	/* M E N U < 992px */
+	.navbar-default .navbar-nav > li > a {
+		padding: 5px 15px;
+		margin: 0 17px;
+		font: 15px 'gagalinregular', sans-serif;
+		line-height: 20px;
+	}
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 767px) {
+
+	/*Disable Animation on Mobile Devices*/
+	.animated {
+		/*CSS transitions*/
+		-o-transition-property: none !important;
+		-moz-transition-property: none !important;
+		-ms-transition-property: none !important;
+		-webkit-transition-property: none !important;
+		transition-property: none !important;
+		/*CSS transforms*/
+		-o-transform: none !important;
+		-moz-transform: none !important;
+		-ms-transform: none !important;
+		-webkit-transform: none !important;
+		transform: none !important;
+		/*CSS animations*/
+		-webkit-animation: none !important;
+		-moz-animation: none !important;
+		-o-animation: none !important;
+		-ms-animation: none !important;
+		animation: none !important;
+	}
+
+	/* M E N U < 768px */
+	.navbar-default .navbar-nav > li > a {
+		padding: 5px 0;
+		margin: 0 auto;
+		font: 21px 'gagalinregular', sans-serif;
+		line-height: 24px;
+		color: #efc330;
+	}
+
+	.navbar-default .navbar-nav > li > a:hover,
+	.navbar-default .navbar-nav > li > a:focus {
+		color: #f6ee14;
+		-webkit-box-shadow: none !important;
+		-moz-box-shadow:    none !important;
+		box-shadow:         none !important;
+		background: rgba(255, 255, 255, .15);
+	}
+
+	.navbar-default .navbar-nav > .active > a,
+	.navbar-default .navbar-nav > .active > a:hover,
+	.navbar-default .navbar-nav > .active > a:focus {
+		color: #f6ee14;
+		-webkit-box-shadow: none !important;
+		-moz-box-shadow:    none !important;
+		box-shadow:         none !important;
+		background: rgba(255, 255, 255, .45);
+	}
+
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+
+
+	/* S E C T I O N _ F T N < 480px */
+
+
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
