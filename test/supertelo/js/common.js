@@ -7,24 +7,6 @@ $(function() {
 		});
 	};
 
-	//E-mail Ajax Send
-	//Documentation & Example: https://github.com/agragregra/uniMail
-	$("form").submit(function() { //Change
-		var th = $(this);
-		$.ajax({
-			type: "POST",
-			url: "mail.php", //Change
-			data: th.serialize()
-		}).done(function() {
-			alert("Thank you!");
-			setTimeout(function() {
-				// Done Functions
-				th.trigger("reset");
-			}, 1000);
-		});
-		return false;
-	});
-
 	//Chrome Smooth Scroll
 	try {
 		$.browserSelector();
@@ -37,23 +19,16 @@ $(function() {
 
 	$("img, a").on("dragstart", function(event) { event.preventDefault(); });
 
-/*
-	$("#tag1").on('click', '[href="#ссылка_на_блок"]', function(e){
-		var fixed_offset = 100;
-		$('html,body').stop().animate({ scrollTop: $(this.hash).offset().top - fixed_offset }, 1000);
-		e.preventDefault();
-	});
-*/
 });
 
 
-$(document).ready(function() {
 
+/*HIDE youtube text*/
+$(document).ready(function() {
 	$('p.why-video-text').click(function(){
 		console.log('click');
 		$(this).hide();
 	})
-
 });
 
 
@@ -73,7 +48,7 @@ $(document).ready(function() {
 		$('body,html').animate({scrollTop:posi},700);
 	});
 
-	$('a.btn-denis,a.btn-why,a.btn-motivation').click(function(){
+	$('a.btn-denis,a.btn-why,a.btn-motivation,a.btn-reason-denis,a.btn-reason-irina,a.btn-reason-stanislav').click(function(){
 		var link = $(this).attr('href');
 		var posi = $(link).offset().top;
 		$('body,html').animate({scrollTop:posi},700);
@@ -96,19 +71,8 @@ $(document).ready(function() {
 		var posi = $(link).offset().top;
 		$('body,html').animate({scrollTop:posi},700);
 	});
-
-	$('a.sec-five-btn').click(function(){
-		var link = $(this).attr('href');
-		var posi = $(link).offset().top;
-		$('body,html').animate({scrollTop:posi},700);
-	});
-	$('a.sec-ten-btn').click(function(){
-		var link = $(this).attr('href');
-		var posi = $(link).offset().top;
-		$('body,html').animate({scrollTop:posi},700);
-	});
-
 });
+
 
 
 /* Modal CENTER */
@@ -125,6 +89,7 @@ $(document).ready(function() {
 	$('.modal').on('show.bs.modal', centerModals);
 	$(window).on('resize', centerModals);
 });
+
 
 
 /* A C C O R D I O N */
@@ -144,6 +109,7 @@ $(document).ready(function() {
 		}
 	}
 });
+
 
 
 // POPUP Settings
@@ -179,6 +145,15 @@ $(document).ready(function(){
 		}
 	});
 
+});
+
+
+
+/* Collapse NAV after click #nav > li > a item */
+$(document).ready(function () {
+	$("#nav").find("li").on("click", "a", function () {
+		$('.navbar-collapse.in').collapse('hide');
+	});
 });
 
 

@@ -217,6 +217,7 @@ body textarea:required:valid {
 .cover-trainers {
 	min-height: 2010px;
 	background: #8B6E66 url(../img/bg-trainers.jpg) center top no-repeat;
+	overflow: hidden;
 }
 
 
@@ -890,7 +891,11 @@ p.profit-text-5 {
 	position: relative;
 	display: block;
 	width: 100%;
-	background: url(../img/step-bg.jpg) 38% 450px no-repeat;
+}
+
+.step-block {
+	width: 100%;
+	background: url(../img/step-bg.jpg) 122px 375px no-repeat;
 	overflow: hidden;
 }
 
