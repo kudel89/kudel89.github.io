@@ -2188,7 +2188,23 @@ p.formTooltip {
 }
 
 .modal-content {
-	padding: 15px;
+	padding: 0;
+	margin: 0;
+	background: rgba(255,255,255,1);
+}
+
+.modal-header {
+	margin: 0;
+	padding: 0;
+	padding: 15px 25px;
+	background: rgba(235,235,235,1);
+}
+
+.modal-body {
+	padding: 0;
+	margin: 0;
+	padding: 35px 25px;
+	background: rgba(255,255,255,1);
 }
 
 .modal-txt-1 {
@@ -2219,4 +2235,163 @@ p.formTooltip {
 	font: 300 14px 'Open Sans', sans-serif;
 	line-height: 18px;
 	color: #353535;
+}
+
+.form-modal {
+	display: block;
+	padding: 0;
+	margin: 0;
+	margin: 0 auto;
+}
+
+	.form-modal * {
+		-webkit-appearance: none;
+		-moz-appearance: none;
+		-ms-appearance:none;
+		appearance: none;
+	}
+
+	input::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+		color: #666666;
+	}
+	input:-moz-placeholder { /* Firefox 18- */
+		color: #666666;
+	}
+	input::-moz-placeholder { /* Firefox 19+ */
+		color: #666666;
+	}
+	input:-ms-input-placeholder { /* IE */
+		color: #666666;
+	}
+	input::-ms-input-placeholder { /* IE Edge */
+		color: #666666;
+	}
+
+.form-modal input[type="email"] {
+	display: block;
+	margin: 0 auto;
+	padding: 20px 15px;
+	width: 100%;
+	height: 60px;
+	font: 800 18px 'Open Sans';
+	line-height: 20px;
+	text-align: center;
+	color: #666666;
+	box-shadow: none;
+	border: none;
+	border: 2px solid #fff;
+	outline: none;
+
+	-webkit-border-radius: 31px;
+	-moz-border-radius: 31px;
+	border-radius: 31px;
+
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	-ms-appearance:none;
+	appearance: none;
+	text-indent: 0.01px; /* Removes default arrow from firefox */
+	text-overflow: ''; /* Removes default arrow from firefox */
+
+	-webkit-box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.35);
+	-moz-box-shadow:    0px 4px 8px 0px rgba(0, 0, 0, 0.35);
+	box-shadow:         0px 4px 8px 0px rgba(0, 0, 0, 0.35);
+}
+
+	.form-modal input[type="email"]::-webkit-input-placeholder,
+	.form-modal input[type="email"]:-moz-placeholder,
+	.form-modal input[type="email"]::-moz-placeholder,
+	.form-modal input[type="email"]:-ms-input-placeholder,
+	.form-modal input[type="email"]::-ms-input-placeholder {
+		color: #666666;
+	}
+
+		.form-modal input[type="email"]::-ms-expand {
+			display: none;
+		}
+
+	.form-modal input[type="email"]:focus {
+		outline: none;
+		box-shadow: none;
+		border: 2px solid #ff9a02;
+	}
+
+.form-modal input[type="submit"] {
+	display: block;
+	margin: 15px auto 0;
+	width: 100%;
+	height: 62px;
+	font: 800 18px 'Open Sans';
+	line-height: 62px;
+	text-align: center;
+	text-decoration: none;
+	letter-spacing: .3px;
+	color: #fff;
+	background: #ff9a02;
+	outline: none;
+	border: none;
+	overflow: hidden;
+	transition: 0.1s;
+	box-shadow: none;
+
+	-webkit-border-radius: 31px;
+	-moz-border-radius: 31px;
+	border-radius: 31px;
+
+	-webkit-box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.35);
+	-moz-box-shadow:    0px 4px 8px 0px rgba(0, 0, 0, 0.35);
+	box-shadow:         0px 4px 8px 0px rgba(0, 0, 0, 0.35);
+}
+
+	.form-modal input[type="submit"]::-moz-focus-inner{border:0}
+	.form-modal input[type="submit"]:hover {
+		cursor: pointer;
+		color: #fff;
+		background: #e68b01;
+		text-decoration: none;
+		border-bottom: none;
+
+		-webkit-box-shadow: 0px 0px 1px 0px rgba(50, 50, 50, 0.75);
+		-moz-box-shadow:    0px 0px 1px 0px rgba(50, 50, 50, 0.75);
+		box-shadow:         0px 0px 1px 0px rgba(50, 50, 50, 0.75);
+
+		background: #e68b01;
+	}
+
+	.form-modal input[type="submit"]:active {
+		cursor: pointer;
+		color: #fff;
+		background: #e68b01;
+		text-decoration: none;
+	}
+
+.modalInputError1,
+.modalInputError2,
+.modalInputError3,
+.modalInputError4,
+.modalInputError5 {
+	border: 2px solid red!important;
+}
+
+p.modalTooltip1,
+p.modalTooltip2,
+p.modalTooltip3,
+p.modalTooltip4,
+p.modalTooltip5 {
+	display: none;
+	position: absolute;
+	top: -45px;
+	left: 50%;
+	width: 300px;
+	margin-left: -150px;
+	padding: 5px 0;
+	font: 800 15px 'Open Sans';
+	line-height: 20px;
+	text-align: center;
+	color: red;
+	background: rgba(255, 255, 255, .65);
+
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
 }

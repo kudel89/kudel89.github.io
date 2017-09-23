@@ -7,6 +7,7 @@ $(function() {
 		});
 	};
 
+
 	//Chrome Smooth Scroll
 	try {
 		$.browserSelector();
@@ -126,7 +127,7 @@ $(document).ready(function(){
 			$(this).attr({"placeholder" : placeHolder});
 		});
 
-	//проверка формы
+	//проверка формы внизу
 	$(".form-one").submit(function(a){
 		$(".formPlaceholder").each(function() {
 			if($(this).val() === ""){
@@ -136,7 +137,8 @@ $(document).ready(function(){
 			}
 			else{
 				$(this).removeClass("formInputError");
-				$(".formTooltip").fadeOut();
+				$(".formTooltip").fadeOut(300);
+				$('#thank').modal('show');
 			}
 		});
 
@@ -144,6 +146,107 @@ $(document).ready(function(){
 			$(".formTooltip").fadeOut();
 		}
 	});
+
+	//проверка modal формы 1
+	$(".form-modal-1").submit(function(a){
+		$(".modalPlaceholder1").each(function() {
+			if($(this).val() === ""){
+				$(this).addClass("modalInputError1");
+				$(".modalTooltip1").fadeIn(300);
+				a.preventDefault();
+			}
+			else{
+				$(this).removeClass("modalInputError1");
+				$(".modalTooltip1").fadeOut(300);
+				$('#thank').modal('show');
+			}
+		});
+
+		if($(".modalInputError1").size() == 0) {
+			$(".modalTooltip1").fadeOut();
+		}
+	});
+
+	//проверка modal формы 2
+	$(".form-modal-2").submit(function(a){
+		$(".modalPlaceholder2").each(function() {
+			if($(this).val() === ""){
+				$(this).addClass("modalInputError2");
+				$(".modalTooltip2").fadeIn(300);
+				a.preventDefault();
+			}
+			else{
+				$(this).removeClass("modalInputError2");
+				$(".modalTooltip2").fadeOut(300);
+				$('#thank').modal('show');
+			}
+		});
+
+		if($(".modalInputError2").size() == 0) {
+			$(".modalTooltip2").fadeOut();
+		}
+	});
+
+	//проверка modal формы 3
+	$(".form-modal-3").submit(function(a){
+		$(".modalPlaceholder3").each(function() {
+			if($(this).val() === ""){
+				$(this).addClass("modalInputError3");
+				$(".modalTooltip3").fadeIn(300);
+				a.preventDefault();
+			}
+			else{
+				$(this).removeClass("modalInputError3");
+				$(".modalTooltip3").fadeOut(300);
+				$('#thank').modal('show');
+			}
+		});
+
+		if($(".modalInputError3").size() == 0) {
+			$(".modalTooltip3").fadeOut();
+		}
+	});
+
+	//проверка modal формы 4
+	$(".form-modal-4").submit(function(a){
+		$(".modalPlaceholder4").each(function() {
+			if($(this).val() === ""){
+				$(this).addClass("modalInputError4");
+				$(".modalTooltip4").fadeIn(300);
+				a.preventDefault();
+			}
+			else{
+				$(this).removeClass("modalInputError4");
+				$(".modalTooltip4").fadeOut(300);
+				$('#thank').modal('show');
+			}
+		});
+
+		if($(".modalInputError4").size() == 0) {
+			$(".modalTooltip4").fadeOut();
+		}
+	});
+
+	//проверка modal формы 5
+	$(".form-modal-5").submit(function(a){
+		$(".modalPlaceholder5").each(function() {
+			if($(this).val() === ""){
+				$(this).addClass("modalInputError5");
+				$(".modalTooltip5").fadeIn(300);
+				a.preventDefault();
+			}
+			else{
+				$(this).removeClass("modalInputError5");
+				$(".modalTooltip5").fadeOut(300);
+				$('#thank').modal('show');
+			}
+		});
+
+		if($(".modalInputError5").size() == 0) {
+			$(".modalTooltip5").fadeOut();
+		}
+	});
+
 
 });
 
