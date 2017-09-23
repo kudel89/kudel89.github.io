@@ -500,10 +500,10 @@
 
 	/* M E N U < 768px */
 	.navbar-default .navbar-nav > li > a {
-		padding: 5px 0;
+		padding: 7px 0;
 		margin: 0 auto;
-		font: 15px 'gagalinregular', sans-serif;
-		line-height: 20px;
+		font: 21px 'gagalinregular', sans-serif;
+		line-height: 24px;
 		color: #efc330;
 	}
 
