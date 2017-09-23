@@ -495,15 +495,15 @@
 	}
 
 	.header-line {
-		height: 50px;
+		height: 38px;
 	}
 
 	/* M E N U < 768px */
 	.navbar-default .navbar-nav > li > a {
 		padding: 5px 0;
 		margin: 0 auto;
-		font: 21px 'gagalinregular', sans-serif;
-		line-height: 24px;
+		font: 15px 'gagalinregular', sans-serif;
+		line-height: 20px;
 		color: #efc330;
 	}
 
@@ -535,7 +535,7 @@
 
 	/* denis */
 	.denis {
-		padding-top: 45px;
+		padding-top: 15px;
 		padding-bottom: 45px;
 		min-height: auto;
 		background: url(../img/bg-denis.jpg) center center no-repeat;
@@ -545,38 +545,46 @@
 		background-size: cover;
 	}
 
-	/* denis */
 	p.denis-text-1,
 	p.denis-text-2,
 	p.denis-text-3,
 	p.denis-text-4 {
 		display: block;
 		margin: 0 auto;
-		padding: 10px 20px;
+		padding: 10px 10px;
 		width: 380px;
 		text-align: center;
-
-		-webkit-transform: none;
-		-moz-transform: none;
-		-ms-transform: none;
-		-o-transform: none;
 	}
 
-		p.denis-text-1 span,
-		p.denis-text-4 span {
-			-webkit-transform: none;
-			-moz-transform: none;
-			-ms-transform: none;
-			-o-transform: none;
-		}
+	p.denis-text-5 {
+		float: none;
+		position: absolute;
+		display: block;
+		margin: 0;
+		bottom: -60px;
+		left: 50%;
+		margin-left: -210px;
+		width: 419px;
+		height: 94px;
+	}
+
+	p.denis-text-3 {
+		margin-top: 15px;
+	}
 
 	p.denis-text-6 {
 		margin-top: 35px;
 	}
 
+	a.btn-denis {
+		margin: 15px auto 0;
+	}
+
+
+
 	/* irina */
 	.irina {
-		padding-top: 45px;
+		padding-top: 25px;
 		padding-bottom: 45px;
 		min-height: auto;
 		background: url(../img/bg-irina.jpg) center center no-repeat;
@@ -610,11 +618,33 @@
 			-o-transform: none;
 		}
 
+	p.irina-text-1 {
+		font: 36px 'gagalinregular';
+		line-height: 42px;
+	}
+
+	p.irina-text-2 {
+		font: 21px 'gagalinregular';
+		line-height: 24px;
+	}
+
+	p.irina-text-3 {
+		float: none;
+		position: absolute;
+		display: block;
+		margin: 0;
+		bottom: -60px;
+		left: 50%;
+		margin-left: -190px;
+		width: 381px;
+		height: 66px;
+	}
+
 
 
 	/* stanislav */
 	.stanislav {
-		padding-top: 45px;
+		padding-top: 25px;
 		padding-bottom: 45px;
 		min-height: auto;
 		background: url(../img/bg-stanislav.jpg) center center no-repeat;
@@ -646,6 +676,28 @@
 			-ms-transform: none;
 			-o-transform: none;
 		}
+
+	p.stanislav-text-1 {
+		font: 21px 'gagalinregular';
+		line-height: 24px;
+	}
+
+	p.stanislav-text-2 {
+		font: 48px 'gagalinregular';
+		line-height: 48px;
+	}
+
+	p.stanislav-text-3 {
+		float: none;
+		position: absolute;
+		display: block;
+		margin: 0;
+		bottom: -60px;
+		left: 50%;
+		margin-left: -218px;
+		width: 436px;
+		height: 73px;
+	}
 
 
 
@@ -918,21 +970,93 @@
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
 
-
+	.expert-top {
+		margin: 0 auto 25px;
+	}
 
 	/* denis */
-	p.denis-text-1,
-	p.denis-text-2,
-	p.denis-text-3,
-	p.denis-text-4 {
-		padding: 10px 20px;
-		width: 100%;
+	img.semenihin {
+		margin: 15px auto 0;
+		width: 200px;
+		height: 341px;
+	}
+
+	img.turchinskaya {
+		margin: 15px auto 0;
+		width: 200px;
+		height: 334px;
+	}
+
+	img.lindover {
+		margin: 15px auto 0;
+		width: 200px;
+		height: 240px;
 	}
 
 	p.denis-text-1 {
-		padding: 25px 20px 10px;
-		font: 48px 'rusboycottregular';
+		padding: 5px 10px;
+		width: 280px;
+		font: 52px 'rusboycottregular';
 		line-height: 56px;
+	}
+
+	p.denis-text-2 {
+		padding: 5px 10px;
+		width: 280px;
+		font: 21px 'gagalinregular';
+		line-height: 24px;
+	}
+
+	p.denis-text-3 {
+		margin-top: 25px;
+		padding: 10px 15px 5px;
+		width: 280px;
+		font: 600 14px 'Open Sans';
+		line-height: 21px;
+	}
+
+	p.denis-text-4 {
+		padding: 10px 15px;
+		width: 280px;
+		font: 56px 'gagalinregular';
+		line-height: 36px;
+
+		-webkit-transform: none;
+		-moz-transform: none;
+		-ms-transform: none;
+		-o-transform: none;
+	}
+
+		p.denis-text-4 span {
+			-webkit-transform: none;
+			-moz-transform: none;
+			-ms-transform: none;
+			-o-transform: none;
+		}
+
+		p.denis-text-4 em {
+			font: normal 36px 'gagalinregular';
+			line-height: 36px;
+		}
+
+	p.denis-text-5 {
+		bottom: -15px;
+		margin-left: -140px;
+		padding: 22px 0;
+		width: 280px;
+		height: 64px;
+		font: 800 17px 'Open Sans';
+		line-height: 20px;
+		background: url(../img/denis-text-bg.png) center center no-repeat;
+
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+	}
+
+	p.denis-text-6 {
+		margin-top: 15px;
 	}
 
 
@@ -946,13 +1070,29 @@
 	}
 
 	p.irina-text-1 {
-		font: 36px 'gagalinregular';
-		line-height: 42px;
+		font: 28px 'gagalinregular';
+		line-height: 32px;
 	}
 
 	p.irina-text-2 {
-		font: 24px 'gagalinregular';
-		line-height: 28px;
+		font: 18px 'gagalinregular';
+		line-height: 21px;
+	}
+
+	p.irina-text-3 {
+		bottom: -15px;
+		margin-left: -140px;
+		padding: 15px 0;
+		width: 280px;
+		height: 49px;
+		font: 800 17px 'Open Sans';
+		line-height: 20px;
+		background: url(../img/irina-text-bg.png) center center no-repeat;
+
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
 	}
 
 
@@ -966,13 +1106,25 @@
 	}
 
 	p.stanislav-text-1 {
-		font: 24px 'gagalinregular';
-		line-height: 28px;
+		font: 21px 'gagalinregular';
+		line-height: 24px;
 	}
 
-	p.stanislav-text-2 {
-		font: 60px 'gagalinregular';
-		line-height: 66px;
+
+	p.stanislav-text-3 {
+		bottom: -15px;
+		margin-left: -140px;
+		padding: 14px 0;
+		width: 280px;
+		height: 47px;
+		font: 800 17px 'Open Sans';
+		line-height: 20px;
+		background: url(../img/stanislav-text-bg.png) center center no-repeat;
+
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
 	}
 
 
@@ -985,13 +1137,13 @@
 
 	p.why-video-text,
 	p.why-text-1 {
-		font: 800 32px 'gagalinregular';
-		line-height: 36px;
+		font: 800 24px 'gagalinregular';
+		line-height: 28px;
 	}
 
 	p.why-text-2 {
-		padding: 15px 25px;
-		font: 600 16px 'Open Sans';
+		padding: 15px 15px;
+		font: 600 14px 'Open Sans';
 		line-height: 21px;
 	}
 
@@ -1095,6 +1247,11 @@
 			-o-transform: none;
 		}
 
+	p.reason-text-3 {
+		font: 24px 'gagalinregular';
+		line-height: 28px;
+	}
+
 	img.reason-vesy {
 		position: static;
 		display: block;
@@ -1115,21 +1272,24 @@
 	p.prize-text-1 {
 		font: 32px 'gagalinregular';
 		line-height: 36px;
+		text-shadow: none;
 	}
 
 	p.prize-text-2 {
 		font: 900 56px 'Open Sans';
 		line-height: 60px;
+		text-shadow: none;
 	}
 
 	p.prize-text-3 {
 		font: 30px 'gagalinregular';
 		line-height: 36px;
+		text-shadow: none;
 	}
 
 	p.prize-text-4 {
-		font: 32px 'gagalinregular';
-		line-height: 36px;
+		font: 24px 'gagalinregular';
+		line-height: 28px;
 	}
 
 	p.prize-text-5 {
@@ -1201,33 +1361,5 @@
 
 /* Custom, iPhone Retina */
 @media only screen and (max-width : 320px) {
-
-}
-
-
-/*==========  Mobile First Method  ==========*/
-
-/* Custom, iPhone Retina */
-@media only screen and (min-width : 320px) {
-
-}
-
-/* Extra Small Devices, Phones */
-@media only screen and (min-width : 480px) {
-
-}
-
-/* Small Devices, Tablets */
-@media only screen and (min-width : 768px) {
-
-}
-
-/* Medium Devices, Desktops */
-@media only screen and (min-width : 992px) {
-
-}
-
-/* Large Devices, Wide Screens */
-@media only screen and (min-width : 1200px) {
 
 }

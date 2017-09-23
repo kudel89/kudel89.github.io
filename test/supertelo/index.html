@@ -7,17 +7,21 @@
 <head>
 
 	<meta charset="utf-8">
-
-	<title>Супертело</title>
-	<meta name="description" content="">
-
-	<link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
-	<link rel="apple-touch-icon" href="img/favicon/apple-touch-icon.png">
-	<link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-touch-icon-72x72.png">
-	<link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-touch-icon-114x114.png">
-
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<title>Супертело</title>
+	<meta http-equiv="Cache-Control" content="max-age=1000">
+
+	<link rel="icon" type="image/png" sizes="32x32" href="img/favicon.png">
+	<meta name="keywords" content=""/>
+	<meta name="description" content="Супертело – Фитнес-проект от лучших профи страны"/>
+	<!-- Chrome, Firefox OS and Opera -->
+	<meta name="theme-color" content="#FFEA00">
+	<!-- Windows Phone -->
+	<meta name="msapplication-navbutton-color" content="#FFEA00">
+	<!-- iOS Safari -->
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 
 	<!-- normalize.css v7.0.0 -->
 	<link rel="stylesheet" href="css/normalize.css">
@@ -25,6 +29,7 @@
 	<!-- Bootstrap 3.3.7 -->
 	<link rel="stylesheet" href="libs/bootstrap/css/bootstrap.min.css">
 
+	<!-- Animate CSS -->
 	<link rel="stylesheet" href="libs/animate/animate.css">
 
 	<!-- FONT: 'Open Sans' -->
@@ -36,8 +41,7 @@
 	<!-- CSS Styles: Media -->
 	<link rel="stylesheet" href="css/media.css">
 
-
-
+	<!-- Modernizr JS -->
 	<script src="libs/modernizr/modernizr.js"></script>
 
 </head>
@@ -89,11 +93,15 @@
 	<div class="col-lg-6 col-lg-offset-6 col-md-6 col-md-offset-6 col-sm-6 col-sm-offset-6 col-xs-12">
 		<p class="denis-text-1"><span>Супертело</span></p>
 		<p class="denis-text-2"><span>Фитнес-проект<br />от лучших профи страны</span></p>
-		<p class="denis-text-3">
-			Приведи свое тело в отличную форму за 4 недели под руководством экспертов
-			<br />
-			и раздели призовой фонд
-		</p>
+
+		<div class="expert-top visible-xs">
+			<img src="img/semenihin.png" alt="" class="img-responsive semenihin">
+			<!-- clearfix -->
+			<div class="clearfix"></div>
+			<p class="denis-text-5">Денис Семенихин</p>
+		</div>
+
+		<p class="denis-text-3">Приведи свое тело в отличную форму за 4 недели под руководством экспертов<br />и раздели призовой фонд</p>
 		<p class="denis-text-4"><span>1 500 000 <em>рублей.</em></span></p>
 	</div>
 
@@ -120,12 +128,16 @@
 <div class="row">
 
 	<div class="col-lg-12">
-		<p class="irina-text-1">
-			<span>Тренировки -<br />это удовольствие</span>
-		</p>
-		<p class="irina-text-2">
-			<span>если ты идёшь к цели в команде единомышленников.</span>
-		</p>
+
+		<div class="expert-top visible-xs">
+			<img src="img/turchinskaya.png" alt="" class="img-responsive turchinskaya visible-xs">
+			<!-- clearfix -->
+			<div class="clearfix"></div>
+			<p class="irina-text-3 visible-xs">Ирина Турчинская</p>
+		</div>
+
+		<p class="irina-text-1"><span>Тренировки -<br />это удовольствие</span></p>
+		<p class="irina-text-2"><span>если ты идёшь к цели в команде единомышленников.</span></p>
 	</div>
 
 	<!-- clearfix -->
@@ -146,21 +158,23 @@
 <div class="row">
 
 	<div class="col-lg-6 col-lg-offset-6 col-md-6 col-md-offset-6 col-sm-5 col-sm-offset-7">
-		<p class="stanislav-text-1">
-			<span>Настал момент истины!<br />Нам пора взяться за дело.</span>
-		</p>
-		<p class="stanislav-text-2">
-			<span>Вместе!</span>
-		</p>
+
+		<div class="expert-top visible-xs">
+			<img src="img/lindover.png" alt="" class="img-responsive lindover visible-xs">
+			<!-- clearfix -->
+			<div class="clearfix"></div>
+			<p class="stanislav-text-3 visible-xs">Станислав Линдовер</p>
+		</div>
+
+		<p class="stanislav-text-1"><span>Настал момент истины!<br />Нам пора взяться за дело.</span></p>
+		<p class="stanislav-text-2"><span>Вместе!</span></p>
 	</div>
 
 	<!-- clearfix -->
 	<div class="clearfix"></div>
 
 	<div class="col-lg-12 hidden-xs">
-		<p class="stanislav-text-3">
-			Станислав Линдовер
-		</p>
+		<p class="stanislav-text-3">Станислав Линдовер</p>
 	</div>
 
 </div>
@@ -178,9 +192,7 @@
 			<div class="embed-responsive why-video">
 				<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/cjro3FykeR8?showinfo=0&modestbranding=1&rel=0&egm=0&border=0&showsearch=0" allowfullscreen></iframe>
 			</div>
-			<p class="why-video-text">
-				Зачем тебе это нужно?
-			</p>
+			<p class="why-video-text">Зачем тебе это нужно?</p>
 
 			<a href="#tariff" class="btn-why">Я в игре!</a>
 
@@ -197,60 +209,30 @@
 	<img src="img/why-gantel.png" alt="" class="why-gantel">
 
 	<div class="col-lg-12">
-		<p class="why-text-1">
-			Используй наш опыт.
-			<br />
-			Это твой <span>кратчайший</span> путь к успеху.
-		</p>
-		<p class="why-text-2">
-			<span>
-				Мы собрали для тебя лучших экспертов страны.
-				<br />
-				За ними уже следует более 1 000 000 человек.
-			</span>
-		</p>
-		<p class="why-text-3">
-			Выбери своего эксперта
-		</p>
+		<p class="why-text-1">Используй наш опыт.<br />Это твой <span>кратчайший</span> путь к успеху.</p>
+		<p class="why-text-2"><span>Мы собрали для тебя лучших экспертов страны.<br />За ними уже следует более 1 000 000 человек.</span></p>
+		<p class="why-text-3">Выбери своего эксперта</p>
 
 		<!-- clearfix -->
 		<div class="clearfix"></div>
 
 		<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
 			<img src="img/why-denis-photo.jpg" alt="" class="why-author-img">
-			<p class="why-author-text-1 why-author-denis-text">
-				<span>Денис Семенихин</span>
-			</p>
-			<p class="why-author-text-2">
-				Создал самый популярный авторский фитнес-блог в России
-			</p>
-			<a href="#more-denis" class="why-more why-more-denis">
-				Узнать больше...
-			</a>
+			<p class="why-author-text-1 why-author-denis-text"><span>Денис Семенихин</span></p>
+			<p class="why-author-text-2">Создал самый популярный авторский фитнес-блог в России</p>
+			<a href="#more-denis" class="why-more why-more-denis">Узнать больше...</a>
 		</div>
 		<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
 			<img src="img/why-irina-photo.jpg" alt="" class="why-author-img">
-			<p class="why-author-text-1 why-author-irina-text">
-				<span>Ирина Турчинская</span>
-			</p>
-			<p class="why-author-text-2">
-				Помогла 1570 людям сбросить 38 тонн жира
-			</p>
-			<a href="#more-irina" class="why-more why-more-irina">
-				Узнать больше...
-			</a>
+			<p class="why-author-text-1 why-author-irina-text"><span>Ирина Турчинская</span></p>
+			<p class="why-author-text-2">Помогла 1570 людям сбросить 38 тонн жира</p>
+			<a href="#more-irina" class="why-more why-more-irina">Узнать больше...</a>
 		</div>
 		<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
 			<img src="img/why-stanislav-photo.jpg" alt="" class="why-author-img">
-			<p class="why-author-text-1 why-author-stanislav-text">
-				<span>Станислав Линдовер</span>
-			</p>
-			<p class="why-author-text-2">
-				Разработал и воплотил в жизнь научный подход к фитнесу
-			</p>
-			<a href="#more-stanislav" class="why-more why-more-stanislav">
-				Узнать больше...
-			</a>
+			<p class="why-author-text-1 why-author-stanislav-text"><span>Станислав Линдовер</span></p>
+			<p class="why-author-text-2">Разработал и воплотил в жизнь научный подход к фитнесу</p>
+			<a href="#more-stanislav" class="why-more why-more-stanislav">Узнать больше...</a>
 		</div>
 
 	</div>
@@ -1142,7 +1124,7 @@
 		<div class="clearfix"></div>
 
 		<!-- F O R M -->
-		<form action="//supertelo.us16.list-manage.com/subscribe/post?u=70accb550e4d8025407a42c72&amp;id=541c64832b" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="form-one" target="_blank" novalidate>
+		<form action="//supertelo.us16.list-manage.com/subscribe/post?u=70accb550e4d8025407a42c72&amp;id=946875fb63" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="form-one" target="_blank" novalidate>
 			<p class="formTooltip">Введите правильный email</p>
 
 			<input type="email" value="" name="EMAIL" id="mce-EMAIL" size="40" placeholder="email" required class="formPlaceholder">
@@ -1199,13 +1181,15 @@
 			</div>
 			<div class="modal-body">
 				<!-- F O R M -->
-				<form action="" method="post" class="form-one" target="_blank">
-					<input type="email"  size="40" placeholder="email" required>
+				<form action="//supertelo.us16.list-manage.com/subscribe/post?u=70accb550e4d8025407a42c72&amp;id=541c64832b" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="form-one" target="_blank" novalidate>
+					<p class="formTooltip">Введите правильный email</p>
+
+					<input type="email" value="" name="EMAIL" id="mce-EMAIL" size="40" placeholder="email" required class="formPlaceholder">
 
 					<!-- clearfix -->
 					<div class="clearfix"></div>
 
-					<input type="submit" value="Подписаться">
+					<input type="submit" value="Продолжить" name="subscribe" id="mc-embedded-subscribe" class="button">
 				</form>
 				<!-- / F O R M -->
 			</div>
@@ -1224,13 +1208,15 @@
 			</div>
 			<div class="modal-body">
 				<!-- F O R M -->
-				<form action="" method="post" class="form-one" target="_blank">
-					<input type="email"  size="40" placeholder="email" required>
+				<form action="//supertelo.us16.list-manage.com/subscribe/post?u=70accb550e4d8025407a42c72&amp;id=541c64832b" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="form-one" target="_blank" novalidate>
+					<p class="formTooltip">Введите правильный email</p>
+
+					<input type="email" value="" name="EMAIL" id="mce-EMAIL" size="40" placeholder="email" required class="formPlaceholder">
 
 					<!-- clearfix -->
 					<div class="clearfix"></div>
 
-					<input type="submit" value="Подписаться">
+					<input type="submit" value="Продолжить" name="subscribe" id="mc-embedded-subscribe" class="button">
 				</form>
 				<!-- / F O R M -->
 			</div>
@@ -1249,13 +1235,15 @@
 			</div>
 			<div class="modal-body">
 				<!-- F O R M -->
-				<form action="" method="post" class="form-one" target="_blank">
-					<input type="email"  size="40" placeholder="email" required>
+				<form action="//supertelo.us16.list-manage.com/subscribe/post?u=70accb550e4d8025407a42c72&amp;id=541c64832b" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="form-one" target="_blank" novalidate>
+					<p class="formTooltip">Введите правильный email</p>
+
+					<input type="email" value="" name="EMAIL" id="mce-EMAIL" size="40" placeholder="email" required class="formPlaceholder">
 
 					<!-- clearfix -->
 					<div class="clearfix"></div>
 
-					<input type="submit" value="Подписаться">
+					<input type="submit" value="Продолжить" name="subscribe" id="mc-embedded-subscribe" class="button">
 				</form>
 				<!-- / F O R M -->
 			</div>
@@ -1274,13 +1262,15 @@
 			</div>
 			<div class="modal-body">
 				<!-- F O R M -->
-				<form action="" method="post" class="form-one" target="_blank">
-					<input type="email"  size="40" placeholder="email" required>
+				<form action="//supertelo.us16.list-manage.com/subscribe/post?u=70accb550e4d8025407a42c72&amp;id=541c64832b" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="form-one" target="_blank" novalidate>
+					<p class="formTooltip">Введите правильный email</p>
+
+					<input type="email" value="" name="EMAIL" id="mce-EMAIL" size="40" placeholder="email" required class="formPlaceholder">
 
 					<!-- clearfix -->
 					<div class="clearfix"></div>
 
-					<input type="submit" value="Подписаться">
+					<input type="submit" value="Продолжить" name="subscribe" id="mc-embedded-subscribe" class="button">
 				</form>
 				<!-- / F O R M -->
 			</div>
@@ -1299,13 +1289,15 @@
 			</div>
 			<div class="modal-body">
 				<!-- F O R M -->
-				<form action="" method="post" class="form-one" target="_blank">
-					<input type="email"  size="40" placeholder="email" required>
+				<form action="//supertelo.us16.list-manage.com/subscribe/post?u=70accb550e4d8025407a42c72&amp;id=541c64832b" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="form-one" target="_blank" novalidate>
+					<p class="formTooltip">Введите правильный email</p>
+
+					<input type="email" value="" name="EMAIL" id="mce-EMAIL" size="40" placeholder="email" required class="formPlaceholder">
 
 					<!-- clearfix -->
 					<div class="clearfix"></div>
 
-					<input type="submit" value="Подписаться">
+					<input type="submit" value="Продолжить" name="subscribe" id="mc-embedded-subscribe" class="button">
 				</form>
 				<!-- / F O R M -->
 			</div>

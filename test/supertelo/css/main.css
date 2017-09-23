@@ -170,20 +170,37 @@ body textarea:required:valid {
 .navbar-default .navbar-nav > .disabled > a,
 .navbar-default .navbar-nav > .disabled > a:hover,
 .navbar-default .navbar-nav > .disabled > a:focus {
-	 color: #cccccc;
-	 background-color: transparent;
+	color: #cccccc;
+	background-color: transparent;
 }
 .navbar-default .navbar-toggle {
-	border-color: #f6ee14;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding: 0;
+	border-color: transparent!important;
 	background: none;
 }
+
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
-	border-color: #f6ee14;
+	border-color: transparent!important;
+	background: none;
 }
 .navbar-default .navbar-toggle .icon-bar {
-	border-color: #f6ee14;
+	display: block;
+	width: 26px;
+	height: 2px;
+	border-radius: 1px;
+	background-color: rgba(246,238,20,.75);
 }
+.navbar-toggle .icon-bar + .icon-bar {
+	margin-top: 6px;
+}
+.navbar-default .navbar-toggle:hover .icon-bar,
+.navbar-default .navbar-toggle:focus .icon-bar {
+	background-color: rgba(246,238,20,.90);
+}
+
 .navbar-default .navbar-collapse,
 .navbar-default .navbar-form {
 	border-color: #f6ee14;
@@ -195,16 +212,7 @@ body textarea:required:valid {
 	color: #efc330;
 }
 
-/* 
-.stanislav {
-	min-height: 690px;
-	background: url(../img/bg-sec-3.jpg) center center no-repeat;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
-}
- */
+
 
 .header-line {
 	display: block;
@@ -226,6 +234,20 @@ body textarea:required:valid {
 .denis {
 	width: 100%;
 	min-height: 910px;
+}
+
+.expert-top {
+	position: relative;
+	display: block;
+	margin: 0 auto 70px;
+	width: 100%;
+}
+
+img.semenihin,
+img.turchinskaya,
+img.lindover {
+	display: block;
+	margin: 35px auto 0;
 }
 
 p.denis-text-1 {
@@ -314,7 +336,14 @@ p.denis-text-5 {
 	text-align: center;
 	text-transform: uppercase;
 	background: url(../img/denis-text-bg.png) center center no-repeat;
+
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
 }
+
+
 
 p.denis-text-6 {
 	margin-top: 10px;
@@ -442,6 +471,11 @@ p.irina-text-3 {
 	text-align: center;
 	text-transform: uppercase;
 	background: url(../img/irina-text-bg.png) center center no-repeat;
+
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
 }
 
 
@@ -513,6 +547,11 @@ p.stanislav-text-3 {
 	text-align: center;
 	text-transform: uppercase;
 	background: url(../img/stanislav-text-bg.png) center center no-repeat;
+
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
 }
 
 .why {
