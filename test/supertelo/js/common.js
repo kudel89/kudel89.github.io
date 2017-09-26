@@ -159,6 +159,7 @@ $(document).ready(function(){
 				$(this).removeClass("modalInputError1");
 				$(".modalTooltip1").fadeOut(300);
 				$('#thank').modal('show');
+				window.open('http://www.yandex.ru/', '_blank');
 			}
 		});
 
@@ -179,6 +180,7 @@ $(document).ready(function(){
 				$(this).removeClass("modalInputError2");
 				$(".modalTooltip2").fadeOut(300);
 				$('#thank').modal('show');
+				window.open('http://www.yandex.ru/', '_blank');
 			}
 		});
 
@@ -199,6 +201,7 @@ $(document).ready(function(){
 				$(this).removeClass("modalInputError3");
 				$(".modalTooltip3").fadeOut(300);
 				$('#thank').modal('show');
+				window.open('http://www.yandex.ru/', '_blank');
 			}
 		});
 
@@ -219,6 +222,7 @@ $(document).ready(function(){
 				$(this).removeClass("modalInputError4");
 				$(".modalTooltip4").fadeOut(300);
 				$('#thank').modal('show');
+				window.open('http://www.yandex.ru/', '_blank');
 			}
 		});
 
@@ -239,6 +243,7 @@ $(document).ready(function(){
 				$(this).removeClass("modalInputError5");
 				$(".modalTooltip5").fadeOut(300);
 				$('#thank').modal('show');
+				window.open('http://www.yandex.ru/', '_blank');
 			}
 		});
 

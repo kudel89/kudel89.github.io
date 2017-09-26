@@ -644,7 +644,7 @@
 
 	/* stanislav */
 	.stanislav {
-		padding-top: 25px;
+		padding-top: 0;
 		padding-bottom: 45px;
 		min-height: auto;
 		background: url(../img/bg-stanislav.jpg) center center no-repeat;
@@ -988,9 +988,9 @@
 	}
 
 	img.lindover {
-		margin: 15px auto 0;
-		width: 200px;
-		height: 240px;
+		margin: 0 auto 0;
+/* 		width: 200px;
+height: 240px; */
 	}
 
 	p.denis-text-1 {
