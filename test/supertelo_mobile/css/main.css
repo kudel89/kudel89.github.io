@@ -217,7 +217,7 @@ body textarea:required:valid {
 .header-line {
 	display: block;
 	margin: 0 auto;
-	height: 45px;
+	height: 50px;
 	width: 100%;
 	background: #000;
 }
@@ -941,10 +941,10 @@ p.profit-text-5 {
 img.step-img-stanislav {
 	display: block;
 	position: absolute;
-	top: -190px;
+	top: 0;
 	right: 0;
-	width: 253px;
-	height: 460px;
+	width: 360px;
+	height: 655px;
 }
 
 img.step-img-irina {
