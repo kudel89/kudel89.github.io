@@ -1,0 +1,21 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Extra Size Devices, Wide Screens */
+@media only screen and (max-width : 1600px) {
+
+	p.denis-text-1 {
+		margin: 110px 0 0 60px;
+		width: 530px;
+		font: 100px 'rusboycottregular';
+		line-height: 120px;
+	}
+
+}
+
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1199px) {
+
+
+
+}
