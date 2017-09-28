@@ -1,0 +1,19 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Extra Size Devices, Wide Screens */
+@media only screen and (max-width : 1600px) {
+
+	p.denis-text-1 {
+		font: italic 100px 'Segoe UI';
+		line-height: 100px;
+	}
+
+}
+
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1199px) {
+
+
+
+}
