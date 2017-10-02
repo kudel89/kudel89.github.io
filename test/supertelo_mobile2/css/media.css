@@ -4,16 +4,169 @@
 @media only screen and (max-width : 1600px) {
 
 	p.denis-text-1 {
-		font: italic 100px 'Segoe UI';
-		line-height: 100px;
+		font: italic 125px 'Segoe UI';
+		line-height: 140px;
 	}
 
 }
 
 
 /* Large Devices, Wide Screens */
-@media only screen and (max-width : 1199px) {
+@media only screen and (max-width : 1366px) {
 
+	p.denis-text-1 {
+		font: italic 108px 'Segoe UI';
+		line-height: 140px;
+	}
+
+	p.irina-text-3 {
+		margin-right: 50px;
+	}
+
+	.stanislav-text-block-top {
+		margin-right: 25px;
+	}
+
+	.stanislav-text-block-bottom {
+		margin-right: 25px;
+	}
+
+
+	/* P R O F I T */
+	.profit-block {
+		width: 1160px;
+	}
+
+	img.profit-label-line-bottom {
+		left: 0;
+		width: 1160px;
+	}
+
+	img.profit-img {
+		display: block;
+		margin: 20px auto -10px;
+		width: 220px;
+		height: 220px;
+	}
+
+	p.profit-text-3 {
+		padding: 15px 0;
+		font: 36px 'gagalinregular';
+		line-height: 30px;
+	}
+
+	p.profit-text-4 {
+		font: 30px 'gagalinregular';
+		line-height: 30px;
+	}
+
+	.profit-block-card-1,
+	.profit-block-card-2,
+	.profit-block-card-3,
+	.profit-block-card-4 {
+		margin: 0 5px;
+}
+	.profit-block-card-2,
+	.profit-block-card-3,
+	.profit-block-card-4,
+	p.profit-card-text-2,
+	p.profit-card-text-3,
+	p.profit-card-text-4 {
+		width: 261px;
+		height: auto;
+		min-height: 180px;
+		overflow: hidden;
+	}
+
+
+	/* W H Y */
+	.why-cover {
+		width: 1150px;
+	}
+
+	.youtube {
+		width: 1150px;
+		height: 647px;
+	}
+
+	p.why-video-text-bottom {
+		margin-left: -575px;
+		width: 1150px;
+		font: 26px 'ralewaymedium';
+		line-height: 30px;
+	}
+
+		p.why-video-text-bottom strong {
+			font: 48px 'ralewaybold';
+			line-height: 36px;
+			text-shadow: 0px 5px 3px rgba(0, 0, 0, 1);
+		}
+
+		p.why-video-text-bottom em {
+			font: 21px 'ralewaymedium';
+			line-height: 30px;
+			font-style: normal;
+		}
+
+
+
+	/* S T E P */
+	img.step-img-stanislav {
+		top: 0;
+		width: 360px;
+		height: 515px;
+	}
+
+	img.step-img-irina {
+		top: 600px;
+		width: 360px;
+		height: 624px;
+	}
+
+	img.step-img-denis {
+		bottom: -128px;
+		width: 360px;
+		height: 573px;
+	}
+
+	.step-block-3,
+	.step-block-6 {
+		margin-left: 0;
+	}
+
+
+	/* what */
+	.what {
+		background: url('../img/bg-what.jpg') -400px top no-repeat;
+	}
+
+	.what-ico-block-main {
+		float: right;
+		display: block;
+		margin-right: 25px;
+		width: 850px;
+	}
+
+
+	/* P R I Z E */
+	.prize-cover {
+		width: 1200px;
+		overflow: hidden;
+	}
+
+	.prize-left-1,
+	.prize-left-2,
+	.prize-left-3,
+	.prize-left-4,
+	.prize-left-5,
+	.prize-left-6 {
+		width: 520px;
+	}
+
+	p.prize-text-left-1 {
+		font: 66px 'gagalinregular';
+		line-height: 80px;
+	}
 
 
 }
