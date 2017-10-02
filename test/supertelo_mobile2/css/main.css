@@ -2199,6 +2199,13 @@ p.now-text-3 {
 	background: url('../img/bg-tariff.jpg') center top no-repeat;
 }
 
+.tariff-cover {
+	display: block;
+	margin: 0 auto;
+	width: 1170px;
+	overflow: hidden;
+}
+
 p.tariff-text-label {
 	padding-top: 20px;
 	font: italic 60px 'Segoe UI';
