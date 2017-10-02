@@ -8,11 +8,32 @@
 		line-height: 140px;
 	}
 
+	/* now */
+	.now {
+		background: url('../img/prize-notebook.png') -100px 205px no-repeat,
+					url('../img/prize-tel.png') right 175px no-repeat;
+	}
+
+	p.footer-text-label {
+		left: 25px;
+	}
+
 }
 
 
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1366px) {
+
+	.nav-cover {
+		margin-left: 50px;
+		width: 640px;
+	}
+
+	.navbar-default .navbar-nav > li > a {
+		margin: 5px 40px 5px;
+		font: 30px 'qanelassemibold_italic';
+		line-height: 34px;
+	}
 
 	p.denis-text-1 {
 		font: italic 108px 'Segoe UI';
@@ -21,6 +42,10 @@
 
 	p.irina-text-3 {
 		margin-right: 50px;
+	}
+
+	p.stanislav-text-3 {
+		margin-left: 50px;
 	}
 
 	.stanislav-text-block-top {
@@ -89,6 +114,13 @@
 		height: 647px;
 	}
 
+	p.why-video-text-top {
+		top: 15px;
+		left: 0;
+		margin-left: 0;
+		width: 400px;
+	}
+
 	p.why-video-text-bottom {
 		margin-left: -575px;
 		width: 1150px;
@@ -135,7 +167,8 @@
 	}
 
 
-	/* what */
+
+	/* W H A T */
 	.what {
 		background: url('../img/bg-what.jpg') -400px top no-repeat;
 	}
@@ -146,6 +179,15 @@
 		margin-right: 25px;
 		width: 850px;
 	}
+
+
+
+	/* P R A C T I C E */
+	p.practice-text-desc {
+		padding: 15px 10px;
+		text-align: center;
+	}
+
 
 
 	/* P R I Z E */
@@ -166,6 +208,22 @@
 	p.prize-text-left-1 {
 		font: 66px 'gagalinregular';
 		line-height: 80px;
+	}
+
+
+
+	/* N O W */
+	.now {
+		background: url('../img/prize-notebook.png') -200px 205px no-repeat,
+					url('../img/prize-tel.png') 750px 175px no-repeat;
+	}
+
+
+
+	/* F O O T E R */
+	.footer-bottom a {
+		font: 700 24px 'ralewaymedium';
+		line-height: 28px;
 	}
 
 
