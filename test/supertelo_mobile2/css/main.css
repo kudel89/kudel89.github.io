@@ -713,11 +713,11 @@ p.why-video-text-bottom {
 	p.why-video-text-bottom span {
 		display: block;
 		margin-top: 20px;
-		font: italic 40px 'Segoe UI';
-		line-height: 40px;
+		font: italic 42px 'Segoe UI';
+		line-height: 42px;
 		color: #f5f4f4;
 		text-transform: uppercase;
-		text-shadow: -2px 4px 3px rgba(50, 50, 50, 1);
+		text-shadow: 0px 3px 1px rgba(75, 75, 75, 1);
 		text-align: center;
 		-webkit-transform: rotate(-2deg);
 		-moz-transform: rotate(-2deg);
@@ -2332,14 +2332,14 @@ p.tarrif-card-label {
 	text-align: center;
 	text-transform: uppercase;
 
-	background: #ffdf43;
-	background: -moz-linear-gradient(top, #ffdf43 0%, #e7aa10 100%);
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffdf43), color-stop(100%,#e7aa10));
-	background: -webkit-linear-gradient(top, #ffdf43 0%,#e7aa10 100%);
-	background: -o-linear-gradient(top, #ffdf43 0%,#e7aa10 100%);
-	background: -ms-linear-gradient(top, #ffdf43 0%,#e7aa10 100%);
-	background: linear-gradient(to bottom, #ffdf43 0%,#e7aa10 100%);
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffdf43', endColorstr='#e7aa10',GradientType=0 );
+	background: #ffdf44;
+	background: -moz-linear-gradient(top, #ffdf44 0%, #ffdf44 25%, #e7aa10 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffdf44), color-stop(25%,#ffdf44), color-stop(100%,#e7aa10));
+	background: -webkit-linear-gradient(top, #ffdf44 0%,#ffdf44 25%,#e7aa10 100%);
+	background: -o-linear-gradient(top, #ffdf44 0%,#ffdf44 25%,#e7aa10 100%);
+	background: -ms-linear-gradient(top, #ffdf44 0%,#ffdf44 25%,#e7aa10 100%);
+	background: linear-gradient(to bottom, #ffdf44 0%,#ffdf44 25%,#e7aa10 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffdf44', endColorstr='#e7aa10',GradientType=0 );
 }
 
 p.tarrif-name {
