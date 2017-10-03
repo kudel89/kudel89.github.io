@@ -375,7 +375,7 @@ p.denis-text-6 {
 	color: #fff;
 	letter-spacing: .5px;
 	text-align: center;
-	text-shadow: 0px 5px 3px rgba(0, 0, 0, 1);
+	text-shadow: 0px 3px 7px rgba(0, 0, 0, 55);
 }
 
 a.btn-denis {
@@ -1539,6 +1539,11 @@ p.step-line-text-8 {
 	text-transform: uppercase;
 }
 
+	p.step-line-text-8 strong {
+		font: 900 26px 'ralewaybold';
+		line-height: 28px;
+	}
+
 	p.step-line-text-8 span {
 		color: #2c8e01;
 	}
@@ -2371,7 +2376,7 @@ p.tarrif-price {
 	padding: 0 10px;
 	font: 45px 'gagalinregular';
 	line-height: 46px;
-	color: #999999;
+	color: #a39c9c;
 	text-align: center;
 }
 
@@ -2420,22 +2425,15 @@ a.btn-tariff {
 	overflow: hidden;
 	transition: 0.1s;
 
-	background: #257b00;
-	background: -moz-linear-gradient(45deg, #257b00 0%, #48a813 45%, #48a813 55%, #257b00 100%);
-	background: -webkit-gradient(linear, left bottom, right top, color-stop(0%,#257b00), color-stop(45%,#48a813), color-stop(55%,#48a813), color-stop(100%,#257b00));
-	background: -webkit-linear-gradient(45deg, #257b00 0%,#48a813 45%,#48a813 55%,#257b00 100%);
-	background: -o-linear-gradient(45deg, #257b00 0%,#48a813 45%,#48a813 55%,#257b00 100%);
-	background: -ms-linear-gradient(45deg, #257b00 0%,#48a813 45%,#48a813 55%,#257b00 100%);
-	background: linear-gradient(45deg, #257b00 0%,#48a813 45%,#48a813 55%,#257b00 100%);
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#257b00', endColorstr='#257b00',GradientType=1 );
+	background: #2a8800;
 
 	-webkit-border-radius: 28px;
 	-moz-border-radius: 28px;
 	border-radius: 28px;
 
-	-webkit-box-shadow: 0px 0px 10px 0px rgba(50, 50, 50, 0.75);
-	-moz-box-shadow:    0px 0px 10px 0px rgba(50, 50, 50, 0.75);
-	box-shadow:         0px 0px 10px 0px rgba(50, 50, 50, 0.75);
+	-webkit-box-shadow: none;
+	-moz-box-shadow:    none;
+	box-shadow:         none;
 }
 
 	a.btn-tariff::-moz-focus-inner{border:0}
@@ -2446,9 +2444,9 @@ a.btn-tariff {
 		text-decoration: none;
 		text-shadow: none;
 
-		-webkit-box-shadow: 0px 0px 1px 0px rgba(50, 50, 50, 0.75);
-		-moz-box-shadow:    0px 0px 1px 0px rgba(50, 50, 50, 0.75);
-		box-shadow:         0px 0px 1px 0px rgba(50, 50, 50, 0.75);
+		-webkit-box-shadow: 0px 0px 4px 0px rgba(50, 50, 50, 0.75);
+		-moz-box-shadow:    0px 0px 4px 0px rgba(50, 50, 50, 0.75);
+		box-shadow:         0px 0px 4px 0px rgba(50, 50, 50, 0.75);
 	}
 
 	a.btn-tariff:active {
@@ -2799,9 +2797,9 @@ p.formTooltip {
 	.footer-bottom a {
 		display: block;
 		margin: 0 auto;
-		font: 700 16px 'ralewaymedium';
+		font: 18px 'qanelassemibold_italic';
 		line-height: 21px;
-		color: #000;
+		color: #2a4a4a;
 		text-align: center;
 	}
 

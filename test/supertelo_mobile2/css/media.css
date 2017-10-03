@@ -24,6 +24,10 @@
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1366px) {
 
+	.br-hide {
+		display: none;
+	}
+
 	.nav-cover {
 		margin-left: 50px;
 		width: 640px;
@@ -96,7 +100,7 @@
 		margin: 30px auto 60px;
 		width: 464px;
 		height: 86px;
-		font: 66px 'qanelassemibold_italic';
+		font: 58px 'qanelassemibold_italic';
 		line-height: 80px;
 
 		-webkit-border-radius: 45px;
@@ -230,9 +234,9 @@
 	a.btn-why {
 		display: block;
 		margin: 30px auto 60px;
-		width: 464px;
+		width: 360px;
 		height: 86px;
-		font: 66px 'qanelassemibold_italic';
+		font: 58px 'qanelassemibold_italic';
 		line-height: 80px;
 
 		-webkit-border-radius: 45px;
@@ -279,8 +283,8 @@
 		}
 
 	p.practice-text-2 {
-		font: 30px 'ralewaybold';
-		line-height: 36px;
+		font: 24px 'ralewaybold';
+		line-height: 28px;
 	}
 
 	p.practice-text-3 {
@@ -291,8 +295,7 @@
 	}
 
 	p.practice-text-desc {
-		padding: 15px 10px;
-		text-align: center;
+		padding: 15px 20px 15px 20px;
 	}
 
 	a.btn-practice {
@@ -435,7 +438,7 @@
 		margin: 90px 50px 60px 0;
 		width: 680px;
 		height: 120px;
-		font: 90px 'qanelassemibold_italic';
+		font: 80px 'qanelassemibold_italic';
 		line-height: 112px;
 	}
 
@@ -450,7 +453,7 @@
 	a.btn-reason {
 		width: 600px;
 		height: 86px;
-		font: 60px 'qanelassemibold_italic';
+		font: 58px 'qanelassemibold_italic';
 		line-height: 80px;
 
 		-webkit-border-radius: 45px;
@@ -503,7 +506,7 @@
 
 	/* F O O T E R */
 	.footer-bottom a {
-		font: 21px 'ralewaybold';
+		font: 21px 'qanelassemibold_italic';
 		line-height: 24px;
 	}
 
