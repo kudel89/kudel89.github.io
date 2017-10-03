@@ -173,9 +173,7 @@ body textarea:required:valid {
 	background: none!important;
 	border: none!important;
 }
-.navbar-default {
-	background: none!important;
-}
+
 .navbar-fixed-top {
 	background: none!important;
 }
@@ -815,10 +813,11 @@ p.what-text-label {
 }
 
 p.what-text-1 {
+	margin-right: 350px;
 	font: 60px 'gagalinregular';
 	line-height: 60px;
 	color: #ffed00;
-	text-align: left;
+	text-align: right;
 
 	-webkit-transform: rotate(-3deg);
 	-moz-transform: rotate(-3deg);
@@ -827,11 +826,10 @@ p.what-text-1 {
 }
 
 p.what-text-2 {
-	margin-left: 310px;
 	font: 60px 'gagalinregular';
 	line-height: 60px;
 	color: #e40101;
-	text-align: left;
+	text-align: right;
 
 	-webkit-transform: rotate(-3deg);
 	-moz-transform: rotate(-3deg);
@@ -2252,6 +2250,7 @@ p.now-text-3 {
 	min-height: 1160px;
 	width: 100%;
 	background: url('../img/bg-tariff.jpg') center top no-repeat;
+	overflow: hidden;
 }
 
 .tariff-cover {
