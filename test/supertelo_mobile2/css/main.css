@@ -295,6 +295,11 @@ p.denis-text-1 {
 	width: 564px;
 	height: 257px;
 	background: url('../img/denis-text-bg-1.png') center center no-repeat;
+
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
 }
 
 p.denis-text-2 {
@@ -325,6 +330,11 @@ p.denis-text-3 {
 	width: 552px;
 	height: 107px;
 	background: url('../img/denis-text-bg-2.png') center center no-repeat;
+
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
 }
 
 p.denis-text-4 {
@@ -443,6 +453,11 @@ a.btn-denis {
 	width: 679px;
 	height: 224px;
 	background: url('../img/irina-text-bg-1.png') center center no-repeat;
+
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
 }
 
 p.irina-text-1 {
@@ -465,6 +480,11 @@ p.irina-text-1 {
 	width: 612px;
 	height: 156px;
 	background: url('../img/irina-text-bg-2.png') center center no-repeat;
+
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
 }
 
 p.irina-text-2 {
@@ -514,6 +534,11 @@ p.irina-text-3 {
 	width: 607px;
 	height: 168px;
 	background: url('../img/stanislav-text-bg-1.png') center center no-repeat;
+
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
 }
 
 p.stanislav-text-1 {
@@ -536,6 +561,11 @@ p.stanislav-text-1 {
 	width: 442px;
 	height: 128px;
 	background: url('../img/stanislav-text-bg-2.png') center center no-repeat;
+
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
 }
 
 p.stanislav-text-2 {
@@ -620,6 +650,11 @@ p.stanislav-text-3 {
 	width: 335px;
 	height: 254px;
 	background: url('../img/youtube-label.png') center center no-repeat;
+
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
 }
 
 .label-line {
@@ -906,16 +941,31 @@ p.practice-text-2 {
 p.practice-text-3 {
 	display: block;
 	position: relative;
-	margin: 0 auto;
+	margin: 0 auto 70px;
 	padding: 34px 15px;
-	width: 836px;
-	height: 177px;
-	font: 800 38px 'gagalinregular';
+	width: 661px;
+	height: 110px;
+	font: 38px 'gagalinregular';
 	line-height: 42px;
 	color: #003333;
 	text-align: center;
 	background: url(../img/practice-text-bg.png) center center no-repeat;
+
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
 }
+
+	.practice-line {
+		position: absolute;
+		display: block;
+		width: 836px;
+		height: 92px;
+		bottom: -65px;
+		left: 50%;
+		margin-left: -418px;
+	}
 
 p.practice-text-name {
 	padding-top: 15px;
@@ -1078,6 +1128,11 @@ p.profit-text-2 {
 	color: #003333;
 	text-align: center;
 	background: url(../img/profit-text-bg.png) center center no-repeat;
+
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
 }
 
 p.profit-label-text-1 {
@@ -2232,6 +2287,11 @@ p.tariff-text-1 {
 	text-align: center;
 	text-transform: uppercase;
 	background: url(../img/tariff-text-bg.png) center center no-repeat;
+
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
 }
 
 	p.tariff-text-1 span {

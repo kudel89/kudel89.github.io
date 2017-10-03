@@ -35,31 +35,183 @@
 		line-height: 30px;
 	}
 
+	/* D E N I S */
 	p.denis-text-1 {
+		margin: 0;
 		font: italic 108px 'Segoe UI';
-		line-height: 140px;
+		line-height: 130px;
+	}
+
+	.denis-text-block-top {
+		margin-top: 5px;
+		width: 700px;
+		height: 319px;
+	}
+
+	p.denis-text-2 {
+		font: 80px 'gagalinregular';
+		line-height: 60px;
+	}
+
+		p.denis-text-2 span {
+			font: 48px 'gagalinregular';
+			line-height: 60px;
+		}
+
+	p.denis-text-3 {
+		font: 28px 'ralewaybold';
+		line-height: 32px;
+	}
+
+	.denis-text-block-bottom {
+		margin-top: 15px;
+		width: 700px;
+		height: 136px;
+	}
+
+	p.denis-text-4 {
+		padding-top: 20px;
+		padding-left: 75px;
+		font: 86px 'gagalinregular';
+		line-height: 90px;
+	}
+
+		p.denis-text-4 span {
+			font: 60px 'gagalinregular';
+			line-height: 90px;
+		}
+
+	p.denis-text-6 {
+		margin-top: 15px;
+		font: 42px 'ralewaybold';
+		line-height: 42px;
+	}
+
+	a.btn-denis {
+		display: block;
+		margin: 30px auto 60px;
+		width: 464px;
+		height: 86px;
+		font: 66px 'qanelassemibold_italic';
+		line-height: 80px;
+
+		-webkit-border-radius: 45px;
+		-moz-border-radius: 45px;
+		border-radius: 45px;
+	}
+
+
+
+	/* I R I N A */
+	.irina-text-block-top {
+		margin-left: 0;
+	}
+
+	p.irina-text-1 {
+		padding-top: 30px;
+		padding-left: 35px;
+		font: 90px 'gagalinregular';
+		line-height: 80px;
+	}
+
+		p.irina-text-1 span {
+			font: 70px 'gagalinregular';
+			line-height: 80px;
+		}
+
+	.irina-text-block-bottom {
+		width: 700px;
+		height: 178px;
+	}
+
+	p.irina-text-2 {
+		padding-top: 45px;
+		padding-left: 35px;
+		font: 42px 'gagalinregular';
+		line-height: 48px;
 	}
 
 	p.irina-text-3 {
+		margin-top: 25px;
 		margin-right: 50px;
 	}
 
-	p.stanislav-text-3 {
-		margin-left: 50px;
+
+
+	/* S T A N I S L A V */
+	.stanislav-text-block-top {
+		margin-top: 300px;
+		margin-right: 0;
+		width: 700px;
+		height: 194px;
 	}
 
-	.stanislav-text-block-top {
-		margin-right: 25px;
+	p.stanislav-text-1 {
+		padding-top: 55px;
+		padding-left: 45px;
+		font: 48px 'gagalinregular';
+		line-height: 52px;
 	}
 
 	.stanislav-text-block-bottom {
-		margin-right: 25px;
+		margin-right: 0;
+		width: 600px;
+		height: 174px;
 	}
+
+	p.stanislav-text-2 {
+		padding-top: 35px;
+		font: 120px 'gagalinregular';
+		line-height: 120px;
+	}
+
+	p.stanislav-text-3 {
+		margin-top: 20px;
+		margin-left: 25px;
+	}
+
 
 
 	/* P R O F I T */
 	.profit-block {
 		width: 1160px;
+	}
+
+	p.profit-text-1 {
+		padding: 45px 0 0;
+		font: 52px 'gagalinregular';
+		line-height: 56px;
+	}
+
+	p.profit-text-2 {
+		font: italic 72px 'Segoe UI';
+		line-height: 80px;
+	}
+
+	.profit-label {
+		padding: 45px 15px 0;
+		width: 800px;
+		height: 271px;
+	}
+
+	p.profit-label-text-1 {
+		font: 36px 'ralewaybold';
+		line-height: 36px;
+	}
+
+		p.profit-label-text-1 strong {
+			font: 36px 'ralewaybold';
+			line-height: 36px;
+		}
+
+	.profit-label-line {
+		width: 720px;
+	}
+
+	p.profit-label-text-2 {
+		padding: 30px 0 15px;
+		font: 50px 'gagalinregular';
+		line-height: 52px;
 	}
 
 	img.profit-label-line-bottom {
@@ -112,6 +264,21 @@
 	.youtube {
 		width: 1150px;
 		height: 647px;
+	}
+
+	.youtube-label {
+		width: 400px;
+		height: 303px;
+	}
+
+	.label-line {
+		margin: 60px auto 10px;
+		width: 300px;
+	}
+
+	p.why-youtube-label-text {
+		font: 56px 'gagalinregular';
+		line-height: 60px;
 	}
 
 	p.why-video-text-top {
@@ -168,6 +335,28 @@
 
 
 
+	/* M O T I V A T I O N */
+	p.motivation-text-1 {
+		padding: 235px 0 20px;
+		font: 70px 'gagalinregular';
+		line-height: 72px;
+	}
+
+	p.motivation-text-2 {
+		font: 38px 'ralewaybold';
+		line-height: 42px;
+	}
+
+	a.btn-motivation {
+		margin: 90px 50px 60px 0;
+		width: 680px;
+		height: 120px;
+		font: 90px 'qanelassemibold_italic';
+		line-height: 112px;
+	}
+
+
+
 	/* W H A T */
 	.what {
 		background: url('../img/bg-what.jpg') -400px top no-repeat;
@@ -183,10 +372,38 @@
 
 
 	/* P R A C T I C E */
+	p.practice-text-1 {
+		font: 48px 'gagalinregular';
+		line-height: 60px;
+	}
+
+		p.practice-text-1 strong {
+			font: 80px 'gagalinregular';
+			line-height: 60px;
+		}
+
+	p.practice-text-2 {
+		font: 30px 'ralewaybold';
+		line-height: 36px;
+	}
+
+	p.practice-text-3 {
+		margin: 20px auto 70px;
+		padding: 20px 15px 25px 25px;
+		font: 50px 'gagalinregular';
+		line-height: 56px;
+	}
+
 	p.practice-text-desc {
 		padding: 15px 10px;
 		text-align: center;
 	}
+
+	a.btn-practice {
+		font: 36px 'qanelassemibold_italic';
+		line-height: 56px;
+	}
+
 
 
 
@@ -208,6 +425,17 @@
 	p.prize-text-left-1 {
 		font: 66px 'gagalinregular';
 		line-height: 80px;
+	}
+
+
+
+	/* T A R I F F */
+	p.tariff-text-1 {
+		padding: 30px 0 30px 25px;
+		width: 700px;
+		height: 156px;
+		font: 86px 'gagalinregular';
+		line-height: 90px;
 	}
 
 
