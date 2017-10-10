@@ -706,7 +706,7 @@ p.sec-four-text-3 {
 	display: block;
 	width: 100%;
 	min-height: 586px;
-	padding-top: 50px;
+	padding-top: 80px;
 	background: url('../img/black-bg.jpg') center center no-repeat;
 
 	-webkit-background-size: cover;
@@ -716,6 +716,7 @@ p.sec-four-text-3 {
 }
 
 p.sec-five-text {
+	padding-bottom: 45px;
 	font: 38px 'exo_2.0light';
 	line-height: 40px;
 	color: #f2f1f0;
@@ -729,48 +730,46 @@ p.sec-five-text {
 .sec-five-block {
 	float: left;
 	display: block;
-	width: 125px;
-	margin-left: 80px;
+	width: 400px;
+	margin-right: 35px;
+	margin-bottom: 30px;
 }
 
-.sec-five-block-ico {
+.sec-five-block-mini {
+	float: left;
 	display: block;
-	margin: 65px auto 10px;
-	width: 96px;
-	height: 96px;
-	font: 56px 'exo_2.0light';
-	line-height: 96px;
-	color: #c2d54c;
-	text-align: center;
-	background: url('../img/ico-main.png') center center no-repeat;
-
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
+	width: 260px;
+	margin-right: 35px;
+	margin-bottom: 30px;
 }
 
-p.sec-three-ico-text {
-	font: 900 19px 'DINPro';
-	line-height: 24px;
+img.sec-five-block-ico {
+	float: left;
+	display: block;
+}
+
+p.sec-five-ico-text-1 {
+	margin-left: 105px;
+	font: 300 22px 'DINPro';
+	line-height: 28px;
 	color: #f2f1f0;
-	text-align: center;
+	text-align: left;
 }
 
-	p.sec-three-ico-text span {
-		color: #c2d54c;
-	}
-
-	p.sec-three-ico-text strong {
-		font: 900 19px 'Arial';
-		line-height: 24px;
-	}
+p.sec-five-ico-text-2 {
+	padding-top: 6px;
+	margin-left: 105px;
+	font: 300 22px 'DINPro';
+	line-height: 28px;
+	color: #f2f1f0;
+	text-align: left;
+}
 
 a.sec-five-btn {
 	float: left;
 	display: block;
-	margin-top: 35px;
-	margin-left: 100px;
+	margin-top: -100px;
+	margin-left: -40px;
 	width: 160px;
 	height: 160px;
 	font: 31px 'exo_2.0light';
@@ -789,8 +788,6 @@ a.sec-five-btn {
 	-o-background-size: cover;
 	background-size: cover;
 }
-
-
 
 	a.sec-five-btn::-moz-focus-inner{border:0}
 
