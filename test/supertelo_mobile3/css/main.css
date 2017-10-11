@@ -98,6 +98,21 @@ body textarea:required:valid {
 
 
 
+/* FONT: Dinpro Condensed Light */
+@font-face {
+	font-family: 'DIN Pro Cond';
+	src: url('../fonts/DinproCond/subset-DINPro-CondensedLight.eot');
+	src: url('../fonts/DinproCond/subset-DINPro-CondensedLight.eot?#iefix') format('embedded-opentype'),
+		 url('../fonts/DinproCond/subset-DINPro-CondensedLight.woff2') format('woff2'),
+		 url('../fonts/DinproCond/subset-DINPro-CondensedLight.woff') format('woff'),
+		 url('../fonts/DinproCond/subset-DINPro-CondensedLight.ttf') format('truetype'),
+		 url('../fonts/DinproCond/subset-DINPro-CondensedLight.svg#DINPro-CondensedLight') format('svg');
+	font-weight: 300;
+	font-style: normal;
+}
+
+
+
 /* FONT: Dinpro Light */
 @font-face {
 	font-family: 'DINPro';
@@ -857,24 +872,503 @@ p.sec-six-text-3 {
 
 
 
+/* SEC - SEVEN */
+.sec-seven {
+	display: block;
+	width: 100%;
+	min-height: 640px;
+	padding-top: 50px;
+	padding-bottom: 40px;
+	background: url('../img/black-bg.jpg') center center no-repeat;
+
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+p.sec-seven-text {
+	margin-left: 245px;
+	padding-bottom: 45px;
+	font: 38px 'exo_2.0light';
+	line-height: 40px;
+	color: #f2f1f0;
+	text-align: left;
+}
+
+	p.sec-seven-text span {
+		color: #c2d54c;
+	}
+
+.sec-seven-block {
+	float: left;
+	position: relative;
+	display: block;
+	height: 104px;
+	width: 240px;
+	margin-left: 120px;
+	margin-bottom: 50px;
+
+	background: url('../img/sec-seven-text-bg.png') center center no-repeat;
+
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+img.sec-seven-block-ico-1 {
+	position: absolute;
+	display: block;
+	top: 25px;
+	left: -90px;
+}
+
+img.sec-seven-block-ico-2 {
+	position: absolute;
+	display: block;
+	top: 25px;
+	right: -90px;
+}
+
+img.sec-seven-block-ico-right {
+	position: absolute;
+	display: block;
+	top: 100px;
+	right: -75px;
+}
+
+img.sec-seven-block-ico-left {
+	position: absolute;
+	display: block;
+	top: -45px;
+	left: -88px;
+}
+
+p.sec-seven-ico-text-1 {
+	padding: 30px 20px;
+	font: 300 19px 'DINPro';
+	line-height: 24px;
+	color: #fff;
+	text-align: left;
+}
+
+p.sec-seven-ico-text-2 {
+	padding: 30px 40px;
+	font: 300 19px 'DINPro';
+	line-height: 24px;
+	color: #fff;
+	text-align: left;
+}
+
+p.sec-seven-ico-text-3 {
+	padding: 20px 15px;
+	font: 300 16px 'DINPro';
+	line-height: 21px;
+	color: #fff;
+	text-align: left;
+}
+
+p.sec-seven-ico-text-4 {
+	padding: 30px 22px;
+	font: 300 18px 'DINPro';
+	line-height: 24px;
+	color: #fff;
+	text-align: left;
+}
+
+a.sec-seven-btn {
+	float: left;
+	display: block;
+	margin-top: -15px;
+	margin-left: 160px;
+	width: 166px;
+	height: 166px;
+	font: 31px 'exo_2.0light';
+	line-height: 166px;
+	color: #c2d54c;
+	text-align: center;
+	text-decoration: none;
+	outline: none;
+	border: none;
+	overflow: hidden;
+	transition: 0.1s;
+	background: url('../img/ico-main.png') center center no-repeat;
+
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+	a.sec-seven-btn::-moz-focus-inner{border:0}
+
+	a.sec-seven-btn:hover {
+		cursor: pointer;
+		color: #d4ef2f;
+		text-decoration: none;
+		text-shadow: none;
+	}
+
+	a.sec-seven-btn:active {
+		text-decoration: none;
+	}
 
 
 
+/* SEC - EIGHT */
+.sec-eight {
+	display: block;
+	width: 100%;
+	min-height: 614px;
+	background: url('../img/sec-eight-bg.jpg') center bottom no-repeat;
+
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+p.sec-eight-label-text-1 {
+	padding-top: 40px;
+	font: 800 34px 'DINPro';
+	line-height: 34px;
+	color: #010101;
+	text-align: left;
+	text-transform: uppercase;
+}
+
+	p.sec-eight-label-text-1 strong {
+		font: 900 34px 'Arial';
+		line-height: 34px;
+	}
+
+p.sec-eight-label-text-2 {
+	padding-top: 40px;
+	font: 36px 'exo_2.0light';
+	line-height: 36px;
+	color: #010101;
+	text-align: center;
+}
+
+.treners-block {
+	float: right;
+	display: block;
+	width: 275px;
+	margin-top: 110px;
+	margin-bottom: -25px;
+	margin-right: 55px;
+	padding-bottom: 25px;
+	background: #20262f;
+}
+
+img.sec-eight-img {
+	display: block;
+	margin: 0 auto 30px;
+}
+
+p.sec-eight-text {
+	font: 23px 'exo_2.0light';
+	line-height: 26px;
+	color: #fff;
+	text-align: center;
+}
+
+a.sec-eight-btn {
+	display: block;
+	width: 84%;
+	height: 52px;
+	margin: 10px auto 0;
+	padding: 16px 0;
+	font: 700 20px 'exo_2.0light';
+	line-height: 20px;
+	color: #272425;
+	text-align: center;
+	text-decoration: none;
+	outline: none;
+	border: none;
+	overflow: hidden;
+	transition: 0.1s;
+	background: #c3d54d;
+}
+
+	a.sec-eight-btn::-moz-focus-inner{border:0}
+
+	a.sec-eight-btn:hover {
+		cursor: pointer;
+		color: #000;
+		background: #b8d20f;
+		text-decoration: none;
+		text-shadow: none;
+	}
+
+	a.sec-eight-btn:active {
+		text-decoration: none;
+	}
 
 
 
+/* SEC - NINE */
+.sec-nine {
+	display: block;
+	width: 100%;
+	min-height: 1045px;
+	padding-top: 60px;
+	background: url('../img/black-bg.jpg') center center no-repeat;
+
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+p.sec-nine-text-1 {
+	padding: 25px 0;
+	font: 44px 'DIN Pro Cond';
+	line-height: 44px;
+	color: #ffffff;
+	text-align: center;
+}
+
+p.sec-nine-text-2 {
+	font: 160px 'cm_sans_serif_2012_agedmedium';
+	line-height: 120px;
+	color: #e0922f;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+p.sec-nine-text-3 {
+	padding-top: 30px;
+	font: 27px 'exo_2.0light';
+	line-height: 30px;
+	color: #c2d54c;
+	text-align: center;
+}
+
+.sec-nine-block {
+	display: block;
+	margin: 0 auto;
+	width: 666px;
+}
+
+.sec-nine-price-left {
+	float: left;
+	display: block;
+	margin-top: 60px;
+}
+
+.sec-nine-price-right {
+	float: right;
+	display: block;
+	margin-top: 60px;
+}
+
+.sec-nine-price-center {
+	float: left;
+	display: block;
+	margin-left: 33px;
+}
+
+p.sec-nine-price-text-1 {
+	font: 52px 'cm_sans_serif_2012_agedmedium';
+	line-height: 40px;
+	color: #e0922f;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+p.sec-nine-price-text-2 {
+	display: block;
+	height: 86px;
+	width: 200px;
+	margin: 0 auto;
+	font: 40px 'DIN Pro Cond';
+	line-height: 86px;
+	color: #ffffff;
+	text-align: center;
+
+	background: url('../img/sec-seven-text-bg.png') center center no-repeat;
+
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+p.sec-nine-price-text-3 {
+	font: 40px 'DIN Pro Cond';
+	line-height: 40px;
+	color: #ffffff;
+	text-align: center;
+}
+
+img.sec-nine-img {
+	display: block;
+	margin: 70px auto 55px;
+}
 
 
 
+/* SEC - TEN */
+.sec-ten {
+	display: block;
+	width: 100%;
+	padding-top: 15px;
+	padding-bottom: 55px;
+	background: #c3d54d;
+}
 
+p.sec-ten-text-top {
+	padding-bottom: 25px;
+	font: 38px 'exo_2.0light';
+	line-height: 38px;
+	color: #272425;
+	text-align: center;
+}
 
+.tariff-card {
+	float: left;
+	position: relative;
+	display: block;
+	width: 198px;
+	margin: 0 15px;
+	background: transparent;
+}
 
+.tariff-header {
+	display: block;
+	width: 100%;
+	height: 66px;
+	margin: 0 auto;
+	font: 600 26px 'exo_2.0light';
+	line-height: 72px;
+	text-align: center;
+	color: #272425;
 
+	background: #f6fbfe;
+	background: -moz-linear-gradient(top, #f6fbfe 0%, #dce5ec 25%, #d6dce0 60%, #b5c1c7 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f6fbfe), color-stop(25%,#dce5ec), color-stop(60%,#d6dce0), color-stop(100%,#b5c1c7));
+	background: -webkit-linear-gradient(top, #f6fbfe 0%,#dce5ec 25%,#d6dce0 60%,#b5c1c7 100%);
+	background: -o-linear-gradient(top, #f6fbfe 0%,#dce5ec 25%,#d6dce0 60%,#b5c1c7 100%);
+	background: -ms-linear-gradient(top, #f6fbfe 0%,#dce5ec 25%,#d6dce0 60%,#b5c1c7 100%);
+	background: linear-gradient(to bottom, #f6fbfe 0%,#dce5ec 25%,#d6dce0 60%,#b5c1c7 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f6fbfe', endColorstr='#b5c1c7',GradientType=0 );
 
+	-webkit-border-top-left-radius: 15px;
+	-webkit-border-top-right-radius: 15px;
+	-moz-border-radius-topleft: 15px;
+	-moz-border-radius-topright: 15px;
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+}
 
+.tariff-body {
+	display: block;
+	width: 100%;
+	margin: 0 auto;
+	padding-top: 85px;
+	overflow: hidden;
 
+	background: #f5f7f8;
+	background: -moz-linear-gradient(top, #f5f7f8 0%, #c9cacc 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f5f7f8), color-stop(100%,#c9cacc));
+	background: -webkit-linear-gradient(top, #f5f7f8 0%,#c9cacc 100%);
+	background: -o-linear-gradient(top, #f5f7f8 0%,#c9cacc 100%);
+	background: -ms-linear-gradient(top, #f5f7f8 0%,#c9cacc 100%);
+	background: linear-gradient(to bottom, #f5f7f8 0%,#c9cacc 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f5f7f8', endColorstr='#c9cacc',GradientType=0 );
 
+	-webkit-border-bottom-right-radius: 15px;
+	-webkit-border-bottom-left-radius: 15px;
+	-moz-border-radius-bottomright: 15px;
+	-moz-border-radius-bottomleft: 15px;
+	border-bottom-right-radius: 15px;
+	border-bottom-left-radius: 15px;
+}
 
+p.tariff-text-1 {
+	display: block;
+	width: 100%;
+	height: 120px;
+	padding: 0 15px;
+	font: 300 19px 'exo_2.0light';
+	line-height: 20px;
+	color: #272425;
+	letter-spacing: -1px;
+	text-align: left;
+}
+
+p.tariff-text-2 {
+	display: block;
+	width: 100%;
+	height: 120px;
+	padding: 0 25px;
+	font: 300 19px 'exo_2.0light';
+	line-height: 20px;
+	color: #272425;
+	letter-spacing: -1px;
+	text-align: left;
+}
+
+p.tariff-price {
+	position: absolute;
+	display: block;
+	top: 85px;
+	left: -9px;
+	width: 119px;
+	height: 66px;
+	padding: 0 5px;
+	font: 27px 'exo_2.0light';
+	line-height: 66px;
+	color: #fff;
+	text-align: center;
+
+	background: url('../img/tariff-price.png') center center no-repeat;
+
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+a.tariff-btn {
+	display: block;
+	width: 120px;
+	height: 48px;
+	margin: 10px auto 20px;
+	font: 300 18px 'exo_2.0light';
+	line-height: 48px;
+	color: #272425;
+	text-align: center;
+	text-decoration: none;
+	outline: none;
+	border: none;
+	overflow: hidden;
+	transition: 0.1s;
+	background: url('../img/tariff-btn.png') center center no-repeat;
+
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+
+}
+
+	a.tariff-btn::-moz-focus-inner{border:0}
+
+	a.tariff-btn:hover {
+		cursor: pointer;
+		font: 700 18px 'exo_2.0light';
+		line-height: 48px;
+		color: #000;
+		text-decoration: none;
+		text-shadow: none;
+	}
+
+	a.tariff-btn:active {
+		text-decoration: none;
+	}
 
 
 
