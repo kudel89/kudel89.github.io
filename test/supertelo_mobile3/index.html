@@ -49,24 +49,6 @@
 
 
 
-<!-- M E N U -->
-<div class="navbar navbar-default" id="nav">
-<div class="nav-cover">
-<div class="container-fluid">
-	<div class="navbar-center" id="navbar">
-		<ul class="nav navbar-nav">
-			<li><a href="#prize" id="prize-btn">ПРИЗЫ</a></li>
-			<li><a href="#tariff" id="tariff-btn">СТОИМОСТЬ УЧАСТИЯ</a></li>
-			<li><a href="#faq" id="faq-btn">ВОПРОСЫ</a></li>
-		</ul>
-	</div>
-</div>
-</div>
-</div>
-<!-- / M E N U -->
-
-
-
 <!-- SEC - ONE -->
 <div class="sec-one">
 
@@ -76,6 +58,13 @@
 <div class="row">
 	<div class="col-xs-3">
 		<p class="sec-one-label-text">СТАРТ 2 ОКТЯБРЯ</p>
+	</div>
+	<div class="col-xs-9">
+		<div class="menu">
+			<a href="#faq" id="faq-btn">ВОПРОСЫ</a>
+			<a href="#tariff" id="tariff-btn">СТОИМОСТЬ УЧАСТИЯ</a>
+			<a href="#prize" id="prize-btn">ПРИЗЫ</a>
+		</div>
 	</div>
 </div>
 </div>
@@ -100,7 +89,7 @@
 		<p class="sec-one-text-3">НОВЫЙ ФИТНЕС ПРОЕКТ</p>
 	</div>
 	<div class="col-xs-4">
-		<a href="#" class="sec-one-btn">УЧАСТВОВАТЬ</a>
+		<a href="#tariff" class="sec-one-btn">УЧАСТВОВАТЬ</a>
 	</div>
 </div>
 </div>
@@ -225,7 +214,7 @@
 		</p>
 	</div>
 
-	<a href="" class="sec-three-btn">СТАРТ</a>
+	<a href="#tariff" class="sec-three-btn">СТАРТ</a>
 
 	<!-- clearfix -->
 	<div class="clearfix"></div>
@@ -397,7 +386,7 @@
 		</p>
 	</div>
 
-	<a href="" class="sec-five-btn">ВПЕРЁД!</a>
+	<a href="#tariff" class="sec-five-btn">ВПЕРЁД!</a>
 
 </div>
 </div>
@@ -570,7 +559,7 @@
 		</p>
 	</div>
 
-	<a href="" class="sec-seven-btn">Я ГОТОВ!</a>
+	<a href="#tariff" class="sec-seven-btn">Я ГОТОВ!</a>
 
 </div>
 </div>
@@ -610,19 +599,19 @@
 	<div class="treners-block">
 		<img src="img/sec-eight-stas.jpg" alt="" class="sec-eight-img">
 		<p class="sec-eight-text">СТАНИСЛАВ ЛИНДОВЕР</p>
-		<a href="" class="sec-eight-btn">Я СО СТАНИСЛАВОМ</a>
+		<a href="#tariff" class="sec-eight-btn sec-eight-btn-stas">Я СО СТАНИСЛАВОМ</a>
 	</div>
 
 	<div class="treners-block">
 		<img src="img/sec-eight-irina.jpg" alt="" class="sec-eight-img">
 		<p class="sec-eight-text">ИРИНА ТУРЧИНСКАЯ</p>
-		<a href="" class="sec-eight-btn">Я С ИРИНОЙ</a>
+		<a href="#tariff" class="sec-eight-btn sec-eight-btn-irina">Я С ИРИНОЙ</a>
 	</div>
 
 	<div class="treners-block">
 		<img src="img/sec-eight-denis.jpg" alt="" class="sec-eight-img">
 		<p class="sec-eight-text">ДЕНИС СЕМЕНИХИН</p>
-		<a href="" class="sec-eight-btn">Я С ДЕНИСОМ</a>
+		<a href="#tariff" class="sec-eight-btn sec-eight-btn-denis">Я С ДЕНИСОМ</a>
 	</div>
 
 </div>
@@ -638,7 +627,7 @@
 
 
 <!-- SEC - NINE -->
-<div class="sec-nine">
+<div class="sec-nine" id="prize">
 <div class="container">
 <div class="row">
 	<div class="col-xs-12">
@@ -693,7 +682,7 @@
 
 
 <!-- SEC - TEN -->
-<div class="sec-ten">
+<div class="sec-ten" id="tariff">
 <div class="container">
 <div class="row">
 	<div class="col-xs-12">
@@ -717,7 +706,7 @@
 				<!-- clearfix -->
 				<div class="clearfix"></div>
 
-				<a href="" class="tariff-btn">КУПИТЬ</a>
+				<a data-toggle="modal" data-target="#tariff1" class="tariff-btn">КУПИТЬ</a>
 			</div>
 		</div>
 
@@ -737,7 +726,7 @@
 				<!-- clearfix -->
 				<div class="clearfix"></div>
 
-				<a href="" class="tariff-btn">КУПИТЬ</a>
+				<a data-toggle="modal" data-target="#tariff2" class="tariff-btn">КУПИТЬ</a>
 			</div>
 		</div>
 
@@ -755,7 +744,7 @@
 				<!-- clearfix -->
 				<div class="clearfix"></div>
 
-				<a href="" class="tariff-btn">КУПИТЬ</a>
+				<a data-toggle="modal" data-target="#tariff3" class="tariff-btn">КУПИТЬ</a>
 			</div>
 		</div>
 
@@ -774,7 +763,7 @@
 				<!-- clearfix -->
 				<div class="clearfix"></div>
 
-				<a href="" class="tariff-btn">КУПИТЬ</a>
+				<a data-toggle="modal" data-target="#tariff4" class="tariff-btn">КУПИТЬ</a>
 			</div>
 		</div>
 
@@ -792,7 +781,7 @@
 				<!-- clearfix -->
 				<div class="clearfix"></div>
 
-				<a href="" class="tariff-btn">КУПИТЬ</a>
+				<a data-toggle="modal" data-target="#tariff5" class="tariff-btn">КУПИТЬ</a>
 			</div>
 		</div>
 
@@ -812,114 +801,28 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <!-- F A Q -->
 <div class="faq" id="faq">
+
+<!-- top-orange-label -->
+<div class="top-orange-label">
 <div class="container">
 <div class="row">
+	<div class="col-xs-3">
+		<p class="sec-elev-label-text-1"><strong>#</strong>СУПЕРТЕЛО</p>
+	</div>
+	<div class="col-xs-7 col-xs-offset-2">
+		<p class="sec-elev-label-text-2">Часто задаваемые вопросы:</p>
+	</div>
+</div>
+</div>
+</div>
 
-	<!-- CLEARFIX -->
-	<div class="clearfix"></div>
+<!-- CLEARFIX -->
+<div class="clearfix"></div>
 
+<div class="container">
+<div class="row">
 
 	<!-- F A Q _ 1 -->
 	<div class="col-xs-3">
@@ -954,52 +857,8 @@
 		</div>
 		</div>
 
-		<!-- Про питание -->
-		<p class="faq-text-2">Про питание</p>
-
-		<div class="faq-block">
-		<button class="accordion">Вы дадите мне план питания?</button>
-		<div class="panel">
-			<p class="faq-text-3">
-				Да, распишем всё подробно. Ты получишь общие рекомендации, перечень рекомендуемых продуктов, меню на каждую неделю и даже блюдо дня. А если останутся вопросы - наши эксперты к твоим услугам.
-			</p>
-		</div>
-		</div>
-
-		<div class="faq-block">
-		<button class="accordion">Как вы узнаете, сколько калорий мне нужно потреблять в день?</button>
-		<div class="panel">
-			<p class="faq-text-3">
-				Чтобы определиться с твоей дневной нормой, тебе нужно будет ввести свой пол, рост и вес в личном кабинете, и мы дадим адаптированную под твои параметры программу питания.
-			</p>
-		</div>
-		</div>
-
-		<div class="faq-block">
-		<button class="accordion">Придётся сильно себя ограничивать?</button>
-		<div class="panel">
-			<p class="faq-text-3">
-				Ты перестанешь есть вредную пищу, но не будешь голодать. Будет вкусно, разнообразно и сытно ровно настолько, насколько нужно твоему организму.
-			</p>
-		</div>
-		</div>
-
-		<div class="faq-block">
-		<button class="accordion">А если у меня особый режим питания?</button>
-		<div class="panel">
-			<p class="faq-text-3">
-				Мы дадим тебе рекомендации и нормы потребления белков, жиров и углеводов. Ты можешь корректировать меню под свой режим и конечно же консультироваться с наставником.
-			</p>
-		</div>
-		</div>
-	</div>
-
-
-	<!-- F A Q _ 2 -->
-	<div class="col-xs-3">
-
 		<!-- А мне точно можно? -->
-		<p class="faq-text-2">А мне точно можно?</p>
+		<p class="faq-text-5">А мне точно можно?</p>
 
 		<div class="faq-block">
 		<button class="accordion">У меня большой избыточный вес. Могу ли я тренироваться?</button>
@@ -1072,9 +931,55 @@
 			</p>
 		</div>
 		</div>
+	</div>
+	<!-- / F A Q _ 1 -->
+
+
+
+	<!-- F A Q _ 2 -->
+	<div class="col-xs-3">
+
+		<!-- Про питание -->
+		<p class="faq-text-2">Про питание</p>
+
+		<div class="faq-block">
+		<button class="accordion">Вы дадите мне план питания?</button>
+		<div class="panel">
+			<p class="faq-text-3">
+				Да, распишем всё подробно. Ты получишь общие рекомендации, перечень рекомендуемых продуктов, меню на каждую неделю и даже блюдо дня. А если останутся вопросы - наши эксперты к твоим услугам.
+			</p>
+		</div>
+		</div>
+
+		<div class="faq-block">
+		<button class="accordion">Как вы узнаете, сколько калорий мне нужно потреблять в день?</button>
+		<div class="panel">
+			<p class="faq-text-3">
+				Чтобы определиться с твоей дневной нормой, тебе нужно будет ввести свой пол, рост и вес в личном кабинете, и мы дадим адаптированную под твои параметры программу питания.
+			</p>
+		</div>
+		</div>
+
+		<div class="faq-block">
+		<button class="accordion">Придётся сильно себя ограничивать?</button>
+		<div class="panel">
+			<p class="faq-text-3">
+				Ты перестанешь есть вредную пищу, но не будешь голодать. Будет вкусно, разнообразно и сытно ровно настолько, насколько нужно твоему организму.
+			</p>
+		</div>
+		</div>
+
+		<div class="faq-block">
+		<button class="accordion">А если у меня особый режим питания?</button>
+		<div class="panel">
+			<p class="faq-text-3">
+				Мы дадим тебе рекомендации и нормы потребления белков, жиров и углеводов. Ты можешь корректировать меню под свой режим и конечно же консультироваться с наставником.
+			</p>
+		</div>
+		</div>
 
 		<!-- Про контрольные задания -->
-		<p class="faq-text-2">Про контрольные задания</p>
+		<p class="faq-text-4">Про контрольные задания</p>
 
 		<div class="faq-block">
 		<button class="accordion">За что меня могут выгнать с игры?</button>
@@ -1121,6 +1026,8 @@
 		</div>
 		</div>
 	</div>
+	<!-- / F A Q _ 2 -->
+
 
 
 	<!-- F A Q _ 3 -->
@@ -1166,7 +1073,7 @@
 		</div>
 
 		<!-- Про фото до и после -->
-		<p class="faq-text-2">Про фото до и после</p>
+		<p class="faq-text-5">Про фото до и после</p>
 
 		<div class="faq-block">
 		<button class="accordion">Мне придётся раздеваться?</button>
@@ -1195,10 +1102,41 @@
 		</div>
 		</div>
 	</div>
+	<!-- / F A Q _ 3 -->
 
 
 	<!-- F A Q _ 4 -->
 	<div class="col-xs-3">
+
+		<!-- Про голосование и призы -->
+		<p class="faq-text-4">Про голосование и призы</p>
+
+		<div class="faq-block">
+		<button class="accordion">Кто будет определять победителей и как?</button>
+		<div class="panel">
+			<p class="faq-text-3">
+				Голосование пройдёт в три этапа. На первом будут голосовать только сами участники - за тех, кто тренировался вместе с ними. Второй этап будет открытым, можно приглашать друзей, знакомых и родственников. Механика проведения финала будет раскрыта уже по ходу игры. Присоединяйся и узнаешь :)
+			</p>
+		</div>
+		</div>
+
+		<div class="faq-block">
+		<button class="accordion">Как мне можно будет забрать приз?</button>
+		<div class="panel">
+			<p class="faq-text-3">
+				Мы свяжемся с тобой сразу после выигрыша и договоримся об удобной форме передачи приза.
+			</p>
+		</div>
+		</div>
+
+		<div class="faq-block">
+		<button class="accordion">Это правда, что призы могут выиграть не только участники?</button>
+		<div class="panel">
+			<p class="faq-text-3">
+				Да, в нашем Инстаграме и в ВК проходят конкурсы для подписчиков, которые пока ещё не присоединились к проекту.
+			</p>
+		</div>
+		</div>
 
 		<!-- Про тренировки -->
 		<p class="faq-text-2">Про тренировки</p>
@@ -1265,37 +1203,8 @@
 			</p>
 		</div>
 		</div>
-
-		<!-- Про голосование и призы -->
-		<p class="faq-text-2">Про голосование и призы</p>
-
-		<div class="faq-block">
-		<button class="accordion">Кто будет определять победителей и как?</button>
-		<div class="panel">
-			<p class="faq-text-3">
-				Голосование пройдёт в три этапа. На первом будут голосовать только сами участники - за тех, кто тренировался вместе с ними. Второй этап будет открытым, можно приглашать друзей, знакомых и родственников. Механика проведения финала будет раскрыта уже по ходу игры. Присоединяйся и узнаешь :)
-			</p>
-		</div>
-		</div>
-
-		<div class="faq-block">
-		<button class="accordion">Как мне можно будет забрать приз?</button>
-		<div class="panel">
-			<p class="faq-text-3">
-				Мы свяжемся с тобой сразу после выигрыша и договоримся об удобной форме передачи приза.
-			</p>
-		</div>
-		</div>
-
-		<div class="faq-block">
-		<button class="accordion">Это правда, что призы могут выиграть не только участники?</button>
-		<div class="panel">
-			<p class="faq-text-3">
-				Да, в нашем Инстаграме и в ВК проходят конкурсы для подписчиков, которые пока ещё не присоединились к проекту.
-			</p>
-		</div>
-		</div>
 	</div>
+	<!-- / F A Q _ 4 -->
 
 </div>
 </div>
@@ -1306,68 +1215,75 @@
 
 <!-- F O O T E R -->
 <footer>
-<p class="footer-text-label">СУПЕРТЕЛО</p>
 <div class="container">
 <div class="row">
-	<div class="col-xs-5 col-xs-offset-6">
-		<p class="footer-text-1">Сомневаешься?</p>
-		<p class="footer-text-2">
-			Оставь свой Email
+	<div class="col-xs-6 col-xs-offset-6">
+		<p class="footer-text-1">
+			Если ты всё ещё сомневаешься,
 			<br />
-			и Денис Семенихин пришлёт тебе
+			оставь свой e-mail и Денис
 			<br />
-			<span>персональное предложение!</span>
+			Семенихин напишет тебе лично.
 		</p>
-
-		<!-- clearfix -->
-		<div class="clearfix"></div>
-
-		<!-- F O R M -->
-		<form target="nomad" action="//supertelo.us16.list-manage.com/subscribe/post?u=70accb550e4d8025407a42c72&amp;id=946875fb63" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="form-one" >
-			<p class="formTooltip">Введите правильный email</p>
-
-			<input type="email" value="" name="EMAIL" id="mce-EMAIL" size="40" placeholder="email" required class="formPlaceholder">
-
-			<!-- clearfix -->
-			<div class="clearfix"></div>
-
-			<input type="submit" value="Жду предложения!" name="subscribe" id="mc-embedded-subscribe" class="button">
-		</form>
-		<iframe name="nomad" style="display:none"></iframe>
-		<!-- / F O R M -->
-
-		<!-- clearfix -->
-		<div class="clearfix"></div>
+		<a data-toggle="modal" data-target="#email" class="footer-btn">e-mail</a>
 	</div>
 </div>
 </div>
+
+<!-- clearfix -->
+<div class="clearfix"></div>
+
+<!-- footer-label -->
+<div class="footer-label">
+<div class="container">
+<div class="row">
+	<div class="col-xs-10 col-xs-offset-2">
+		<p class="footer-label-text"><strong>#</strong>СУПЕРТЕЛО</p>
+	</div>
+</div>
+</div>
+</div>
+
+<!-- clearfix -->
+<div class="clearfix"></div>
+
+<div class="container">
+<div class="row">
+	<div class="col-xs-12">
+		<a data-toggle="modal" data-target="#myModal3" class="footer-url">Правила</a>
+		<a data-toggle="modal" data-target="#myModal2" class="footer-url">Договор оферты</a>
+		<a data-toggle="modal" data-target="#myModal1" class="footer-url">Контакты</a>
+	</div>
+</div>
+</div>
+
 </footer>
 <!-- / F O O T E R -->
 
 
 
-<div class="footer-line"></div>
-
-
-
-<div class="footer-bottom">
-<div class="container">
-<div class="row">
-	<div class="col-xs-3">
-		<a data-toggle="modal" data-target="#myModal1">Контакты</a>
-	</div>
-	<div class="col-xs-3">
-		<a data-toggle="modal" data-target="#myModal2">Договор оферты</a>
-	</div>
-	<div class="col-xs-3">
-		<a data-toggle="modal" data-target="#myModal3">Правила</a>
-	</div>
-	<div class="col-xs-3">
-		<a href="mailto:supertelo@semenikhin.ru" target="_blank">supertelo@semenikhin.ru</a>
+<!-- Modal email -->
+<div class="modal fade" id="email" tabindex="-1" role="dialog" aria-labelledby="myModalLabel1" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+				<p class="modal-txt-1">Оставь свой Email</p>
+			</div>
+			<div class="modal-body">
+				<!-- F O R M -->
+				<form target="nomad" action="//supertelo.us16.list-manage.com/subscribe/post?u=70accb550e4d8025407a42c72&amp;id=541c64832b" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="form-modal">
+					<input type="email" value="" name="EMAIL" id="mce-EMAIL" size="40" placeholder="email" required>
+					<!-- clearfix -->
+					<div class="clearfix"></div>
+					<input type="submit" value="Продолжить" name="subscribe" id="mc-embedded-subscribe" class="button">
+				</form>
+				<!-- / F O R M -->
+			</div>
+		</div>
 	</div>
 </div>
-</div>
-</div>
+<!-- / Modal email -->
 
 
 
@@ -1382,13 +1298,9 @@
 			<div class="modal-body">
 				<!-- F O R M -->
 				<form target="nomad" action="//supertelo.us16.list-manage.com/subscribe/post?u=70accb550e4d8025407a42c72&amp;id=541c64832b" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="form-modal form-modal-1">
-					<p class="modalTooltip1">Введите правильный email</p>
-
-					<input type="email" value="" name="EMAIL" id="mce-EMAIL" size="40" placeholder="email" required class="modalPlaceholder1">
-
+					<input type="email" value="" name="EMAIL" id="mce-EMAIL" size="40" placeholder="email" required>
 					<!-- clearfix -->
 					<div class="clearfix"></div>
-
 					<input type="submit" value="Продолжить" name="subscribe" id="mc-embedded-subscribe" class="button">
 				</form>
 				<!-- / F O R M -->
@@ -1409,13 +1321,9 @@
 			<div class="modal-body">
 				<!-- F O R M -->
 				<form target="nomad" action="//supertelo.us16.list-manage.com/subscribe/post?u=70accb550e4d8025407a42c72&amp;id=541c64832b" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="form-modal form-modal-2">
-					<p class="modalTooltip2">Введите правильный email</p>
-
-					<input type="email" value="" name="EMAIL" id="mce-EMAIL" size="40" placeholder="email" required class="modalPlaceholder2">
-
+					<input type="email" value="" name="EMAIL" id="mce-EMAIL" size="40" placeholder="email" required>
 					<!-- clearfix -->
 					<div class="clearfix"></div>
-
 					<input type="submit" value="Продолжить" name="subscribe" id="mc-embedded-subscribe" class="button">
 				</form>
 				<!-- / F O R M -->
@@ -1436,13 +1344,9 @@
 			<div class="modal-body">
 				<!-- F O R M -->
 				<form target="nomad" action="//supertelo.us16.list-manage.com/subscribe/post?u=70accb550e4d8025407a42c72&amp;id=541c64832b" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="form-modal form-modal-3">
-					<p class="modalTooltip3">Введите правильный email</p>
-
-					<input type="email" value="" name="EMAIL" id="mce-EMAIL" size="40" placeholder="email" required class="modalPlaceholder3">
-
+					<input type="email" value="" name="EMAIL" id="mce-EMAIL" size="40" placeholder="email" required>
 					<!-- clearfix -->
 					<div class="clearfix"></div>
-
 					<input type="submit" value="Продолжить" name="subscribe" id="mc-embedded-subscribe" class="button">
 				</form>
 				<!-- / F O R M -->
@@ -1463,13 +1367,9 @@
 			<div class="modal-body">
 				<!-- F O R M -->
 				<form target="nomad" action="//supertelo.us16.list-manage.com/subscribe/post?u=70accb550e4d8025407a42c72&amp;id=541c64832b" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="form-modal form-modal-4">
-					<p class="modalTooltip4">Введите правильный email</p>
-
-					<input type="email" value="" name="EMAIL" id="mce-EMAIL" size="40" placeholder="email" required class="modalPlaceholder4">
-
+					<input type="email" value="" name="EMAIL" id="mce-EMAIL" size="40" placeholder="email" required>
 					<!-- clearfix -->
 					<div class="clearfix"></div>
-
 					<input type="submit" value="Продолжить" name="subscribe" id="mc-embedded-subscribe" class="button">
 				</form>
 				<!-- / F O R M -->
@@ -1490,13 +1390,9 @@
 			<div class="modal-body">
 				<!-- F O R M -->
 				<form target="nomad" action="//supertelo.us16.list-manage.com/subscribe/post?u=70accb550e4d8025407a42c72&amp;id=541c64832b" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="form-modal form-modal-5">
-					<p class="modalTooltip5">Введите правильный email</p>
-
-					<input type="email" value="" name="EMAIL" id="mce-EMAIL" size="40" placeholder="email" required class="modalPlaceholder5">
-
+					<input type="email" value="" name="EMAIL" id="mce-EMAIL" size="40" placeholder="email" required>
 					<!-- clearfix -->
 					<div class="clearfix"></div>
-
 					<input type="submit" value="Продолжить" name="subscribe" id="mc-embedded-subscribe" class="button">
 				</form>
 				<!-- / F O R M -->
@@ -1616,7 +1512,6 @@
 
 	<script src="libs/jquery/jquery-3.2.1.min.js"></script>
 	<script src="libs/bootstrap/js/bootstrap.min.js"></script>
-	<script src="libs/waypoints/waypoints.min.js"></script>
 	<script src="libs/animate/animate-css.js"></script>
 	<script src="libs/plugins-scroll/plugins-scroll.js"></script>
 
