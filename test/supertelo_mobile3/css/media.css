@@ -11,5 +11,10 @@
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1366px) {
 
+	p.sec-three-text-top {
+		padding-bottom: 20px;
+		font: 900 32px 'DINPro';
+		line-height: 36px;
+	}
 
 }
