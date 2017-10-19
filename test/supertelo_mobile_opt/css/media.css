@@ -1,0 +1,36 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Extra Size Devices, Wide Screens */
+@media only screen and (max-width : 1600px) {
+
+	p.denis-text-1 {
+		margin: 110px 0 0 60px;
+		width: 530px;
+		font: 100px 'rusboycottregular';
+		line-height: 120px;
+	}
+
+	/* motivation */
+	.motivation {
+		margin-top: 80px;
+		width: 100%;
+		background: url(../img/bg-motivation_mob.png) center top no-repeat;
+	}
+
+	p.motivation-text-1 {
+		padding: 145px 0 5px;
+	}
+
+	a.btn-motivation {
+		margin: 25px auto 0;
+	}
+
+}
+
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1199px) {
+
+
+
+}
