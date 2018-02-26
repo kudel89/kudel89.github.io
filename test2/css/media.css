@@ -356,6 +356,24 @@
 	}
 
 	/* C A R O U S E L */
+	.carousel-inner {
+		position: relative;
+		overflow: hidden;
+		width: 90%;
+		margin: 0 auto;
+	}
+
+	.glyphicon-chevron-left:before {
+		margin-left: -90px;
+		font-size: 70px;
+		line-height: 15px;
+	}
+	.glyphicon-chevron-right:before {
+		margin-right: -90px;
+		font-size: 70px;
+		line-height: 15px;
+	}
+
 	.carousel-control.left {
 		top: 0;
 		left: 0;
@@ -363,18 +381,6 @@
 	.carousel-control.right {
 		top: 0;
 		right: 0;
-	}
-
-	.glyphicon-chevron-left:before {
-		margin-left: -185px;
-		font-size: 50px;
-		line-height: 15px;
-	}
-
-	.glyphicon-chevron-right:before {
-		margin-right: -185px;
-		font-size: 50px;
-		line-height: 15px;
 	}
 
 
