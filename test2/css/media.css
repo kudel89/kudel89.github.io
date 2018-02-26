@@ -366,13 +366,13 @@
 	}
 
 	.glyphicon-chevron-left:before {
-		margin-left: -200px;
+		margin-left: -185px;
 		font-size: 50px;
 		line-height: 15px;
 	}
 
 	.glyphicon-chevron-right:before {
-		margin-right: -200px;
+		margin-right: -185px;
 		font-size: 50px;
 		line-height: 15px;
 	}
