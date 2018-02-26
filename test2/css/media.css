@@ -355,6 +355,27 @@
 		margin: 125px 25px 0 0;
 	}
 
+	/* C A R O U S E L */
+	.carousel-control.left {
+		top: 0;
+		left: 0;
+	}
+	.carousel-control.right {
+		top: 0;
+		right: 0;
+	}
+
+	.glyphicon-chevron-left:before {
+		margin-left: -200px;
+		font-size: 50px;
+		line-height: 15px;
+	}
+
+	.glyphicon-chevron-right:before {
+		margin-right: -200px;
+		font-size: 50px;
+		line-height: 15px;
+	}
 
 
 	/* T A R I F F */
