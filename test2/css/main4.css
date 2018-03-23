@@ -2166,7 +2166,7 @@ a.btn-motivation-denis {
 .motivation {
 	position: relative;
 	width: 100%;
-	min-height: 1000px;
+	min-height: 1075px;
 	background: url(../img/bg-motivation-bottom.jpg) center bottom no-repeat;
 }
 
@@ -2328,7 +2328,7 @@ p.motivation-text-4 {
 p.motivation-prize-left {
 	float: left;
 	display: block;
-	margin: 225px 0 0 25px;
+	margin: 300px 0 0 25px;
 	width: 404px;
 	height: 192px;
 	font: 90px 'gagalinregular';
@@ -2351,7 +2351,7 @@ p.motivation-prize-left {
 p.motivation-prize-right {
 	float: right;
 	display: block;
-	margin: 225px 25px 0 0;
+	margin: 300px 25px 0 0;
 	width: 404px;
 	height: 192px;
 	font: 90px 'gagalinregular';
