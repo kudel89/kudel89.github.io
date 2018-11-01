@@ -851,11 +851,13 @@ a.footer-url-email {
 a.footer-url-skype:hover,
 a.footer-url-sms:hover {
 	cursor: pointer;
+	color: #fff;
 	border-bottom: 1px dashed #fff;
 }
 
 a.footer-url-email:hover {
 	cursor: pointer;
+	color: #fff;
 	border-bottom: 1px dashed #fff;
 }
 
