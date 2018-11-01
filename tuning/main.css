@@ -290,11 +290,21 @@ h1 div {
 	-webkit-text-fill-color: transparent;
 	position: absolute;
 	width: 100%;
+	font-size: 48px;
+	line-height: 56px;
+	font-weight: 900;
+	font-style: italic;
+	text-transform: uppercase;
 }
 
 h1:after {
 	content: 'TUNING.ONLINE';
 	color: transparent;
+	font-size: 48px;
+	line-height: 56px;
+	font-weight: 900;
+	font-style: italic;
+	text-transform: uppercase;
 }
 
 h2 {
