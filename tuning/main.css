@@ -449,10 +449,6 @@ img.slider-three-item:hover {
 .slider-one,
 .slider-two {
 	padding: 0 0 70px;
-}
-
-.slider-one-block,
-.slider-two-block {
 	color: #fff;
 	background: #000;
 }
@@ -755,6 +751,17 @@ p.faq-text {
 	line-height: 24px;
 	font-weight: 300;
 	color: #fff;
+}
+
+p.faq-text a {
+	text-decoration: underline;
+	color: #fff;
+}
+
+p.faq-text a:hover {
+	text-decoration: none;
+	color: #fff;
+	border-bottom: 1px dashed #fff;
 }
 
 
