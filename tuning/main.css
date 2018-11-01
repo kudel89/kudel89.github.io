@@ -852,12 +852,14 @@ a.footer-url-skype:hover,
 a.footer-url-sms:hover {
 	cursor: pointer;
 	color: #fff;
+	text-decoration: none;
 	border-bottom: 1px dashed #fff;
 }
 
 a.footer-url-email:hover {
 	cursor: pointer;
 	color: #fff;
+	text-decoration: none;
 	border-bottom: 1px dashed #fff;
 }
 
