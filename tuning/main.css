@@ -51,6 +51,8 @@ body textarea:required:valid {}
 
 html {
 	height: 100%;
+	color: #fff;
+	background: #000
 }
 
 body {
