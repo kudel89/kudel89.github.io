@@ -8,7 +8,22 @@
 
 /* Medium Devices, Desktops */
 
-@media only screen and (max-width: 992px) {}
+@media only screen and (max-width: 992px) {
+	h1 {
+		width: 100%;
+		padding-top: 0;
+		font-size: 36px;
+		line-height: 42px;
+	}
+	h2 {
+		font-size: 20px;
+		line-height: 30px;
+	}
+	h3 {
+		font-size: 16px;
+		line-height: 24px;
+	}
+}
 
 
 /* Small Devices, Tablets */
@@ -89,20 +104,6 @@
 		flex-wrap: wrap;
 		align-content: center;
 		justify-content: center; */
-	}
-	h1 {
-		width: 100%;
-		padding-top: 0;
-		font-size: 36px;
-		line-height: 42px;
-	}
-	h2 {
-		font-size: 20px;
-		line-height: 30px;
-	}
-	h3 {
-		font-size: 16px;
-		line-height: 24px;
 	}
 	p.header-text-description {
 		float: left;
