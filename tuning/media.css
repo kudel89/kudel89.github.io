@@ -105,6 +105,10 @@
 		align-content: center;
 		justify-content: center; */
 	}
+	h1 {
+		font-size: 32px;
+		line-height: 36px;
+	}
 	p.header-text-description {
 		float: left;
 		font-size: 20px;

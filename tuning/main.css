@@ -51,8 +51,9 @@ body textarea:required:valid {}
 
 html {
 	height: 100%;
+	font-family: 'Montserrat', sans-serif;
 	color: #fff;
-	background: #000
+	background: #000;
 }
 
 body {
@@ -280,6 +281,7 @@ h1 {
 	line-height: 56px;
 	font-weight: 900;
 	font-style: italic;
+	font-family: 'Montserrat', sans-serif;
 	color: #ffa800;
 	text-transform: uppercase;
 }
@@ -294,6 +296,7 @@ h1 div {
 	line-height: 56px;
 	font-weight: 900;
 	font-style: italic;
+	font-family: 'Montserrat', sans-serif;
 	text-transform: uppercase;
 }
 
@@ -304,6 +307,7 @@ h1:after {
 	line-height: 56px;
 	font-weight: 900;
 	font-style: italic;
+	font-family: 'Montserrat', sans-serif;
 	text-transform: uppercase;
 }
 
@@ -313,6 +317,7 @@ h2 {
 	line-height: 36px;
 	font-weight: 900;
 	font-style: italic;
+	font-family: 'Montserrat', sans-serif;
 	text-align: center;
 }
 
@@ -321,6 +326,7 @@ h3 {
 	font-size: 20px;
 	line-height: 32px;
 	font-weight: 600;
+	font-family: 'Montserrat', sans-serif;
 	text-align: center;
 }
 
