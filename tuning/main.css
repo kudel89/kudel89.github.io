@@ -1,5 +1,4 @@
 /* clearfix */
-
 .clearfix:after {
 	visibility: hidden;
 	display: block;
@@ -8,19 +7,13 @@
 	clear: both;
 	height: 0;
 }
-
 * html .clearfix {
 	zoom: 1;
 }
-
-
 /* IE6 */
-
 *:first-child+html .clearfix {
 	zoom: 1;
 }
-
-
 /* IE7 */
 
 *,
@@ -29,31 +22,24 @@ p {
 	padding: 0;
 }
 
-.testFLEX {
-	display: -webkit-box;
-	display: -webkit-flex;
-	display: -ms-flexbox;
-	display: flex
-}
-
 *::-webkit-input-placeholder {
-	color: #666;
+	color: #fff;
 	font-family: 'Montserrat', sans-serif;
 	opacity: 1;
 }
 
 *:-moz-placeholder {
-	color: #666;
+	color: #fff;
 	opacity: 1;
 }
 
 *::-moz-placeholder {
-	color: #666;
+	color: #fff;
 	opacity: 1;
 }
 
 *:-ms-input-placeholder {
-	color: #666;
+	color: #fff;
 	opacity: 1;
 }
 
@@ -77,8 +63,8 @@ body {
 	font-family: 'Montserrat', sans-serif;
 	font-size: 20px;
 	line-height: 1.6;
-	color: #fff;
-	background: #000000;
+	color: #ffffff;
+	background-color: #000000;
 	overflow-x: hidden;
 }
 
@@ -88,7 +74,6 @@ body {
 
 
 /* NAV */
-
 .navbar-toggle {
 	position: fixed;
 	top: 15px;
@@ -225,7 +210,6 @@ nav {
 	opacity: 0;
 	visibility: hidden;
 }
-
 
 .thankyou {
     position: relative;
