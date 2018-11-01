@@ -63,8 +63,8 @@ body {
 	font-family: 'Montserrat', sans-serif;
 	font-size: 20px;
 	line-height: 1.6;
-	color: #ffffff;
-	background-color: #000000;
+	color: #fff;
+	background-color: #000;
 	overflow-x: hidden;
 }
 
@@ -443,14 +443,16 @@ img.slider-three-item:hover {
 	background: url(img/slider-arrow-right-hover.png) no-repeat;
 }
 
-
-/* SLIDER ONE */
-.slider-one {
+/* SLIDER's' */
+.slider-one,
+.slider-two {
 	padding: 0 0 70px;
 }
 
-.slider-two {
-	padding: 0 0 70px;
+.slider-one-block,
+.slider-two-block {
+	color: #fff;
+	background: #000;
 }
 
 
@@ -607,6 +609,10 @@ form button:hover {
 
 
 /* SELL */
+.sell {
+	color: #fff;
+	background: #000;
+}
 
 .sell-top {
 	display: flex;
@@ -651,9 +657,10 @@ p.sell-text-bottom {
 
 
 /* LABS */
-
 .labs {
 	padding: 0 0 70px;
+	color: #fff;
+	background: #000;
 }
 
 .labs-block {
@@ -675,6 +682,10 @@ p.labs-text {
 
 
 /* FAQ */
+.faq {
+	color: #fff;
+	background: #000;
+}
 
 .panel {
 	padding: 0;
@@ -746,6 +757,10 @@ p.faq-text {
 
 
 /* FOOTER */
+footer {
+	color: #fff;
+	background: #000;
+}
 p.footer-text-author {
 	margin: 0;
 	padding: 25px 0 5px 0;
