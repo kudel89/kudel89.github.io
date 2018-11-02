@@ -336,6 +336,26 @@
 	}	
 }
 
+@media (min-width: 320px) and (max-width: 379px) and (orientation: landscape) {
+	.header-block {
+		margin-top: -25px !important;
+		margin-bottom: 75px;
+	}
+	h1 {
+		padding-top: 0;
+	}
+}
+
+@media (min-width: 480px) and (max-width: 767px) and (orientation: landscape) {
+	.header-block {
+		margin-top: -75px !important;
+		margin-bottom: 75px;
+	}
+	h1 {
+		padding-top: 0;
+	}
+}
+
 /* Custom, iPhone Retina */
 @media only screen and (max-width: 479px) {
 /* 
