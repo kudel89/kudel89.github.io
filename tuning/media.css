@@ -69,7 +69,8 @@
 	/*HEADER*/
 	header,
 	.thankyou {
-		height: 100%;
+		min-height: 100%;
+		height: auto;
 		padding: 0;
 		background: url(img/bg-header-mobile.jpg) no-repeat center center;
 		-webkit-background-size: cover;
