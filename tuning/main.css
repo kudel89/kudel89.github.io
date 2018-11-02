@@ -475,6 +475,101 @@ img.slider-three-item:hover {
 	background: #000;
 }
 
+.slider-two-block {
+	position: relative;
+	max-width: 280px;
+	display: block;
+	margin: 0 auto;
+}
+
+.slider-two-values {
+	display: block;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	padding-left: 30px;
+	padding-bottom: 15px;
+	width: 100%;
+	height: auto;
+}
+
+p.slider-two-text-car {
+	display: block;
+    width: 100%;
+    padding-bottom: 5px !important;
+    font-size: 15px;
+	line-height: 20px;
+	font-weight: 900;
+	text-align: left;
+	letter-spacing: 0.3px;
+    color: #fff;
+	background: transparent;
+	text-shadow: 1px 1px 0px rgba(0, 0, 0, 1);
+}
+
+p.slider-two-text-power,
+p.slider-two-text-torque,
+p.slider-two-text-mpg {
+	display: block;
+	width: 50px;
+	margin: 2px 0 !important;
+	float: left;
+	height: 14px;
+    font-size: 13px;
+	line-height: 14px;
+	font-weight: 400;
+	text-align: left;
+    color: #fff;
+	background: transparent;
+	text-shadow: 1px 1px 0px rgba(0, 0, 0, 1);
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.slider-two-text-power-block,
+.slider-two-text-torque-block,
+.slider-two-text-mpg-block {
+	display: block;
+	float: left;
+	margin: 2px 0 !important;
+	height: 14px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	background: rgba(255,242,0,1);
+	background: -moz-linear-gradient(left, rgba(255,242,0,1) 0%, rgba(255,60,0,1) 100%);
+	background: -webkit-gradient(left top, right top, color-stop(0%, rgba(255,242,0,1)), color-stop(100%, rgba(255,60,0,1)));
+	background: -webkit-linear-gradient(left, rgba(255,242,0,1) 0%, rgba(255,60,0,1) 100%);
+	background: -o-linear-gradient(left, rgba(255,242,0,1) 0%, rgba(255,60,0,1) 100%);
+	background: -ms-linear-gradient(left, rgba(255,242,0,1) 0%, rgba(255,60,0,1) 100%);
+	background: linear-gradient(to right, rgba(255,242,0,1) 0%, rgba(255,60,0,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fff200', endColorstr='#ff3c00', GradientType=1 );
+}
+
+.slider-two-text-power-block {
+	width: 65px;
+}
+
+.slider-two-text-torque-block {
+	width: 50px;
+}
+
+.slider-two-text-mpg-block {
+	width: 40px;
+}
+
+p.slider-two-block-price {
+	position: absolute;
+	right: 30px;
+	bottom: 25px;
+	font-size: 28px;
+	line-height: 36px;
+	font-weight: 900;
+	font-style: italic;
+	color: #ffa800;
+	text-shadow: 1px 1px 0px rgba(0, 0, 0, 1);
+}
 
 /* QUOTE */
 .quote {

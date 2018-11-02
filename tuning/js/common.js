@@ -145,7 +145,7 @@ $("#owl-two,#owl-three").owlCarousel({
 	loop: true,
 	center: true,
 	dots: false,
-	margin: 15,
+	margin: 20,
 	autoplay: true,
 	autoplayTimeout: 5000,
 	autoplayHoverPause: true,
@@ -159,17 +159,24 @@ $("#owl-two,#owl-three").owlCarousel({
 		0: {
 			items: 1,
 			margin: 10,
-			stagePadding: 40
+			stagePadding: 0
+		},
+		380: {
+			items: 1,
+			margin: 20,
+			stagePadding: 50
 		},
 		480: {
 			items: 1,
-			margin: 20,
-			stagePadding: 80
+			margin: 40,
+			stagePadding: 110
 		},
-		576: {
-			items: 2
+		768: {
+			items: 2,
+			margin: 10,
+			stagePadding: 20
 		},
-		1000: {
+		992: {
 			items: 3
 		}
 	}
