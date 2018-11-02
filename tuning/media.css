@@ -8,27 +8,12 @@
 
 /* Medium Devices, Desktops */
 
-@media only screen and (max-width: 992px) {
-	h1 {
-		width: 100%;
-		padding-top: 0;
-		font-size: 36px;
-		line-height: 42px;
-	}
-	h2 {
-		font-size: 20px;
-		line-height: 30px;
-	}
-	h3 {
-		font-size: 16px;
-		line-height: 24px;
-	}
-}
+@media only screen and (max-width: 992px) {}
 
 
 /* Small Devices, Tablets */
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
 	/*Disable Animation on Mobile Devices*/
 	.animated {
 		/*CSS transitions*/
@@ -96,27 +81,50 @@
 	}
 	.header-block {
 		margin-top: 50px;
-		/* display: -webkit-flex;
+		display: -webkit-flex;
 		display: -moz-flex;
 		display: -ms-flex;
 		display: -o-flex;
 		display: flex;
 		flex-wrap: wrap;
 		align-content: center;
-		justify-content: center; */
+		justify-content: center;
 	}
 	h1 {
-		font-size: 24px;
-		line-height: 32px;
+		width: 100%;
+		padding-top: 75px;
+		font-size: 40px;
+		line-height: 48px;
+		text-align: center;
+	}
+	h1 div {
+		font-size: 40px;
+		line-height: 48px;
+		text-align: center;
+	}
+	h1:after {
+		font-size: 40px;
+		line-height: 48px;
+		text-align: center;
+	}
+	h2 {
+		font-size: 20px !important;
+		line-height: 30px !important;
+	}
+	h3 {
+		font-size: 16px !important;
+		line-height: 24px !important;
 	}
 	p.header-text-description {
-		float: left;
+		float: none;
 		font-size: 20px;
 		line-height: 28px;
+		text-align: center;
 	}
 	.header-list li {
 		padding-right: 40px;
 		font-size: 18px;
+		line-height: 30px;
 	}
 	.header-arrow-down-btn {
 		position: absolute;
@@ -146,6 +154,9 @@
 	}
 	.owl-item.active {
 		opacity: 1;
+	}
+	.slider-two {
+		padding: 0;
 	}
 
 	/* QUOTE */
@@ -185,14 +196,14 @@
 	}
 
 	p.subscribe-text-top {
-		padding: 5px 0;
+		padding: 5px 0 !important;
 		font-size: 18px;
 		line-height: 21px;
 		text-align: center;
 	}
 
 	p.subscribe-text-bottom {
-		padding: 5px 0;
+		padding: 5px 0 !important;
 		font-size: 16px;
 		line-height: 21px;
 		text-align: center;
@@ -215,7 +226,7 @@
 	}
 
 	p.sell-text-bottom {
-		padding: 0 100px;
+		padding: 0 100px !important;
 	}
 
 	/* LABS */
@@ -225,14 +236,17 @@
 
 	/* FAQ */
 	button.accordion {
-		padding: 13px 30px 10px 10px;
+		padding: 15px 30px 15px 10px;
 		font-size: 16px;
 		line-height: 24px;
 	}
 
-		button.accordion:after {
-			right: 5px;
-		}
+	button.accordion:after {
+		right: 5px;
+		margin-top: -19px;
+		font-size: 24px;
+		line-height: 32px;
+	}
 
 	/* FOOTER */
 	img.footer-author {
@@ -261,13 +275,13 @@
 	}
 
 	p.footer-text-map {
-		margin-left: 35px;
+		margin-left: 35px !important;
 		font-size: 16px;
 		line-height: 24px;
 	}
 
 	p.footer-logo-text {
-		margin-top: 35px;
+		margin-top: 35px !important;
 		text-align: center;
 	}
 	p.footer-text-copyright {
@@ -283,12 +297,46 @@
 
 /* Extra Small Devices, Phones */
 
-@media only screen and (max-width: 576px) {}
+@media only screen and (max-width: 576px) {
+	.header-block {
+		padding: 0 10%;
+	}
+}
 
+@media (min-width: 379px) and (max-width: 479px) {
+	h1 {
+		padding: 0;
+		font-size: 32px;
+		line-height: 36px;
+	}
+	h1 div {
+		font-size: 32px;
+		line-height: 36px;
+	}
+	h1:after {
+		font-size: 32px;
+		line-height: 36px;
+	}	
+}
+
+@media only screen and (max-width: 379px) {
+	h1 {
+		padding: 0;
+		font-size: 26px;
+		line-height: 36px;
+	}
+	h1 div {
+		font-size: 26px;
+		line-height: 36px;
+	}
+	h1:after {
+		font-size: 26px;
+		line-height: 36px;
+	}	
+}
 
 /* Custom, iPhone Retina */
-
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 479px) {
 /* 
 	.owl-carousel .nav-btn {
 		margin-top: -10px;
@@ -328,10 +376,6 @@
 	.header-block {
 		margin-top: 0;
 	}
-	h1 {
-		font-size: 28px;
-		line-height: 36px;
-	}
 	h2 {
 		font-size: 16px;
 		line-height: 21px;
@@ -352,7 +396,11 @@
 		background: url(img/ico-success.png) 0 0 no-repeat;
 	}
 	img.header-logo-powered {
-		max-width: 240px;
+		float: none;
+		display: block;
+		margin: 0 auto;
+		width: 276px;
+		height: 32px;
 	}
 
 	.owl-carousel .prev-slide-2 {
@@ -363,24 +411,16 @@
 	}
 
 	/* QUOTE */
+	.quote {
+		padding: 90px 0 0 0;
+	}
 	p.quote-text {
 		font-size: 13px;
 		line-height: 18px;
 	}
 
-	/* SUBSCRIBE */
-	p.subscribe-text-top {
-		font-size: 15px;
-		line-height: 18px;
-	}
-
-	p.subscribe-text-bottom {
-		font-size: 13px;
-		line-height: 18px;
-	}
-
 	p.sell-text-bottom {
-		padding: 0 30px;
+		padding: 0 30px !important;
 	}
 
 	/* FAQ */
@@ -390,7 +430,7 @@
 	}
 
 	p.faq-text {
-		padding: 20px 30px 15px 10px;
+		padding: 15px 30px 15px 10px !important;
 		font-size: 13px;
 		line-height: 18px;
 	}
@@ -401,31 +441,3 @@
 		line-height: 18px;
 	}
 }
-
-
-/*==========  Mobile First Method  ==========*/
-
-
-/* Custom, iPhone Retina */
-
-@media only screen and (min-width: 320px) {}
-
-
-/* Extra Small Devices, Phones */
-
-@media only screen and (min-width: 576px) {}
-
-
-/* Small Devices, Tablets */
-
-@media only screen and (min-width: 768px) {}
-
-
-/* Medium Devices, Desktops */
-
-@media only screen and (min-width: 992px) {}
-
-
-/* Large Devices, Wide Screens */
-
-@media only screen and (min-width: 1200px) {}
