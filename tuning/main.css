@@ -373,7 +373,8 @@ p.header-text-description {
 
 /* OWL Carousel */
 
-img.slider-one-item {
+img.slider-one-item,
+img.slider-three-item {
 	display: block;
 	margin: 0 auto;
 	max-width: 840px;
@@ -383,15 +384,13 @@ img.slider-one-item:hover {
 	cursor: pointer;
 }
 
-img.slider-two-item,
-img.slider-three-item {
+img.slider-two-item {
 	display: block;
 	margin: 0 auto;
 	max-width: 280px;
 }
 
-img.slider-two-item:hover,
-img.slider-three-item:hover {
+img.slider-two-item:hover {
 	cursor: pointer;
 }
 
@@ -469,7 +468,8 @@ img.slider-three-item:hover {
 
 /* SLIDER's' */
 .slider-one,
-.slider-two {
+.slider-two,
+.slider-three {
 	padding: 0 0 70px;
 	color: #fff;
 	background: #000;
@@ -774,32 +774,6 @@ p.sell-text-bottom {
 	text-align: center;
 	color: #fff;
 }
-
-
-/* LABS */
-.labs {
-	padding: 0 0 70px;
-	color: #fff;
-	background: #000;
-}
-
-.labs-block {
-    width: 100%;
-    padding-bottom: 40px;
-}
-
-p.labs-text {
-    display: block;
-    width: 100%;
-    margin-top: -40px !important;
-    font-size: 14px;
-	line-height: 20px;
-	font-weight: 600;
-	text-align: center;
-    color: #fff;
-    background: transparent;
-}
-
 
 /* FAQ */
 .faq {

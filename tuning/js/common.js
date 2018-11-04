@@ -140,8 +140,8 @@ $("#owl-one").owlCarousel({
 	]
 });
 
-// OWL Carousel - 2 & 3
-$("#owl-two,#owl-three").owlCarousel({
+// OWL Carousel - 32
+$("#owl-two").owlCarousel({
 	loop: true,
 	center: true,
 	dots: false,
@@ -180,6 +180,22 @@ $("#owl-two,#owl-three").owlCarousel({
 			items: 3
 		}
 	}
+});
+
+// OWL Carousel - 3
+$("#owl-three").owlCarousel({
+	loop: true,
+	items: 1,
+	nav: true,
+	dots: true,
+	margin: 0,
+	autoplay: true,
+	autoplayTimeout: 3000,
+	autoplayHoverPause: true,
+	navText: [
+		"<div class='nav-btn prev-slide'></div>",
+		"<div class='nav-btn next-slide'></div>"
+	]
 });
 
 
