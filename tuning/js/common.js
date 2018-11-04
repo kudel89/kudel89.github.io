@@ -184,7 +184,7 @@ $("#owl-two").owlCarousel({
 
 // OWL Carousel - 3
 $("#owl-three").owlCarousel({
-	loop: true,
+	loop: false,
 	items: 1,
 	nav: true,
 	dots: true,
