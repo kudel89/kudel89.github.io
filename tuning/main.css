@@ -534,6 +534,11 @@ p.slider-two-text-mpg {
 	float: left;
 	margin: 2px 0 !important;
 	height: 14px;
+	font-size: 14px;
+	line-height: 14px;
+	font-weight: 900;
+	color: #fff;
+	text-shadow: 1px 1px 0px rgba(0, 0, 0, 1);
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
