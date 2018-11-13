@@ -184,7 +184,7 @@ $("#owl-two").owlCarousel({
 
 // OWL Carousel - 3
 $("#owl-three").owlCarousel({
-	loop: false,
+	loop: true,
 	items: 1,
 	nav: true,
 	dots: true,
@@ -198,6 +198,11 @@ $("#owl-three").owlCarousel({
 	]
 });
 
+/* FANCYBOX */
+$(document).ready(function () {
+	// Infinity sliding
+	$.fancybox.defaults.loop = true;
+});
 
 /* A C C O R D I O N */
 $(document).ready(function () {
